@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-dropdownlist
 
-> ${The Kendo UI for jQuery dropdownlist widget wrapped as a React component.}
+> The Kendo UI for jQuery dropdownlist widget wrapped as a React component.
 
 ## Install
 
