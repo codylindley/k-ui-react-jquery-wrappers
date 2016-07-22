@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Lindley/Desktop/kuireact/dropDownList',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Lindley/.npm correctMkdir not in flight; initializing
+10 info lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: kendo-ui-react-jquery-dropdownlist@1.0.0
+11 verbose lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: unsafe-perm in lifecycle true
+12 verbose lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Lindley/Desktop/kuireact/dropDownList/node_modules/.bin:/usr/local/bin:/Users/Lindley/.rvm/gems/ruby-2.1.2/bin:/Users/Lindley/.rvm/gems/ruby-2.1.2@global/bin:/Users/Lindley/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/Lindley/.rvm/bin
+13 verbose lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: CWD: /Users/Lindley/Desktop/kuireact/dropDownList
+14 silly lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: Args: [ '-c', 'npm run build' ]
+15 silly lifecycle kendo-ui-react-jquery-dropdownlist@1.0.0~prepublish: Returned: code: 0  signal: null
+16 verbose tar pack [ '/Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package.tgz',
+16 verbose tar pack   '/Users/Lindley/Desktop/kuireact/dropDownList' ]
+17 verbose tarball /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package.tgz
+18 verbose folder /Users/Lindley/Desktop/kuireact/dropDownList
+19 verbose addLocalTarball adding from inside cache /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package.tgz
+20 verbose correctMkdir /Users/Lindley/.npm correctMkdir not in flight; initializing
+21 silly cache afterAdd kendo-ui-react-jquery-dropdownlist@1.0.0
+22 verbose afterAdd /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package/package.json not in flight; writing
+23 verbose correctMkdir /Users/Lindley/.npm correctMkdir not in flight; initializing
+24 verbose afterAdd /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package/package.json written
+25 silly publish { name: 'kendo-ui-react-jquery-dropdownlist',
+25 silly publish   version: '1.0.0',
+25 silly publish   description: 'The Kendo UI for jQuery dropdownlist widget wrapped as a React component.',
+25 silly publish   main: './dist/index.js',
+25 silly publish   scripts:
+25 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+25 silly publish      build: 'babel src --presets babel-preset-es2015 --out-dir dist',
+25 silly publish      prepublish: 'npm run build' },
+25 silly publish   repository: { type: 'git', url: 'blah' },
+25 silly publish   keywords: [ 'Kendo', 'UI', 'jQuery', 'React', 'Widgets', 'Components' ],
+25 silly publish   author:
+25 silly publish    { name: 'cody lindley',
+25 silly publish      email: 'contact@codylindley.com',
+25 silly publish      url: 'http://www.codylindley.com' },
+25 silly publish   license: 'Apache-2.0',
+25 silly publish   dependencies:
+25 silly publish    { 'deep-diff': '^0.3.4',
+25 silly publish      jquery: '^3.1.0',
+25 silly publish      'kendo-ui-core': '^2016.2.607',
+25 silly publish      react: '^15.2.1',
+25 silly publish      'react-dom': '^15.2.1' },
+25 silly publish   readme: 'ERROR: No README data found!',
+25 silly publish   _id: 'kendo-ui-react-jquery-dropdownlist@1.0.0',
+25 silly publish   _shasum: '07b3ba05a4ce4ad1b6cec08d4ffcaae8f4c10d46',
+25 silly publish   _from: '.' }
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name kendo-ui-react-jquery-dropdownlist
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'kendo-ui-react-jquery-dropdownlist',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   name: 'kendo-ui-react-jquery-dropdownlist',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/kendo-ui-react-jquery-dropdownlist
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /Users/Lindley/.npm/kendo-ui-react-jquery-dropdownlist/1.0.0/package.tgz
+34 verbose request uri https://registry.npmjs.org/kendo-ui-react-jquery-dropdownlist
+35 verbose request sending authorization for write operation
+36 info attempt registry request try #1 at 11:26:57 AM
+37 verbose request id fb2999d2d7c3286f
+38 http request PUT https://registry.npmjs.org/kendo-ui-react-jquery-dropdownlist
+39 http 403 https://registry.npmjs.org/kendo-ui-react-jquery-dropdownlist
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '95',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Fri, 22 Jul 2016 17:26:57 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-sea1926-SEA',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1469208417.414855,VS0,VE243',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 verbose request invalidating /Users/Lindley/.npm/registry.npmjs.org/kendo-ui-react-jquery-dropdownlist on PUT
+42 error publish Failed PUT 403
+43 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : kendo-ui-react-jquery-dropdownlist
+43 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+43 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+43 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+43 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+43 verbose stack     at emitTwo (events.js:106:13)
+43 verbose stack     at Request.emit (events.js:191:7)
+43 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+43 verbose stack     at emitOne (events.js:101:20)
+43 verbose stack     at Request.emit (events.js:188:7)
+43 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+44 verbose statusCode 403
+45 verbose pkgid kendo-ui-react-jquery-dropdownlist
+46 verbose cwd /Users/Lindley/Desktop/kuireact/dropDownList
+47 error Darwin 15.5.0
+48 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+49 error node v6.2.0
+50 error npm  v3.8.9
+51 error code E403
+52 error "You cannot publish over the previously published version 1.0.0." : kendo-ui-react-jquery-dropdownlist
+53 error If you need help, you may report this error at:
+53 error     <https://github.com/npm/npm/issues>
+54 verbose exit [ 1, true ]
