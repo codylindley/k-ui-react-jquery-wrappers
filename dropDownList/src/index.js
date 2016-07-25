@@ -1,5 +1,4 @@
 // import/require dependencies
-import $ from 'jquery';
 import kuidropdown from 'kendo-ui-core/js/kendo.dropdownlist.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -11,7 +10,7 @@ const KendoDropDownList = React.createClass({
 	//component is in the DOM, so do stuff to it in this callback
 	componentDidMount: function() {
 		//get, child element node for this component
-		var elementNode = this.elementNode = ReactDOM.findDOMNode(this);
+		var elementNode = ReactDOM.findDOMNode(this);
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
@@ -21,7 +20,6 @@ const KendoDropDownList = React.createClass({
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;
 		this.props.methods ? this.callKendoWidgetMethods(this.props.methods) : null;
 		this.props.triggerEvents ? this.triggerKendoWidgetEvents(this.props.triggerEvents) : null;
-		this.props.unbindEvents ? this.unbindEventsToKendoWidget(this.props.unbindEvents) : null;
 	},
 
 	//instance methods for updating widget
@@ -84,7 +82,7 @@ const KendoDropDownList = React.createClass({
 
 	//destory it, when the component is unmouted
 	componentWillUnmount: function() {
-		$(this.elementNode).getKendoDropDownList().destroy();
+		this.widgetInstance.destroy();
 	},
 
 	//use the passed in React nodes or a plain <div> if no React child nodes are defined
