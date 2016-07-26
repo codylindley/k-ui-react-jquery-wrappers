@@ -12,6 +12,11 @@ const KendoDropDownList = React.createClass({
 		//get, child element node for this component
 		var elementNode = ReactDOM.findDOMNode(this);
 
+		//determine if a selector was passed on which to invoke the KUI widget
+		if(this.props.selector){
+			elementNode = elementNode.querySelector(this.props.selector);
+		}
+
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
 		this.widgetInstance = new kuidropdown.ui.DropDownList(elementNode,this.props.options);
