@@ -1,6 +1,6 @@
 # Kendo UI (for jQuery) React Wrappers
 
-Individual wrappers that you can include in your application so that Kendo UI for jQuery widgets can be used like so in a React application:
+Individual wrappers that you can include in your application so that Kendo UI for jQuery widgets can be used in a React application:
 
 ```
 <KendoDropDownList options={{}}>
@@ -13,7 +13,12 @@ Individual wrappers that you can include in your application so that Kendo UI fo
 </KendoDropDownList>
 ```
 
-## Install
+## Available Wrappers
+
+* [colorPicker](colorPicker) or on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker)
+* [dropDownList](colorPicker) or on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist)
+
+## Installing Wrappers
 
 ```bash
 npm i -S kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. colorpicker]
