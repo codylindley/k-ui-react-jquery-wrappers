@@ -15,19 +15,19 @@ Individual wrappers that you can include in your application so that Kendo UI fo
 
 ## Available Wrappers
 
-* [colorPicker](colorPicker) or on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker)
-* [dropDownList](colorPicker) or on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist)
+* [colorPicker](colorPicker) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker)
+* [dropDownList](colorPicker) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist)
 
 ## Installing Wrappers
 
 ```bash
-npm i -S kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. colorpicker]
+npm i -S kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. dropdownlist]
 ```
 
-For example the following command will install the [colorPicker](colorPicker) wrapper:
+For example the following command will install the [dropDownList](colorPicker) wrapper:
 
 ```bash
-npm i -S kendo-ui-react-jquery-colorpicker
+npm i -S kendo-ui-react-jquery-dropdownlist
 ```
 
 ## Example Usage
