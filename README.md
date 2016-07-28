@@ -27,7 +27,7 @@ npm i -S kendo-ui-react-jquery-colorpicker
 
 ## Example Usage
 
-```
+```javascript
 <KendoDropDownList
 	//only updates upon state change from above if widget supports setOptions()
 	//don't define events here, do it in events prop
