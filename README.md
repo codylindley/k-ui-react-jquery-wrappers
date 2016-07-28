@@ -1,9 +1,11 @@
-# Kendo UI (for jQuery) React Wrappers
+# Kendo UI (for jQuery) React Component Wrappers
 
-Individual wrappers that you can include in your application so that Kendo UI for jQuery widgets can be used in a React application:
+React component wrappers that you can include via npm so that Kendo UI for jQuery widgets can be used in a React app.
+
+For example:
 
 ```
-<KendoDropDownList options={{}}>
+<KendoDropDownList options={{configuration:values}}>
 	<select>
 		<option>S - 6 3/5"</option>
 		<option>M - 7 1/4"</option>
