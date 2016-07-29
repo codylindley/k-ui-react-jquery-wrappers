@@ -2,9 +2,9 @@
 
 The Kendo UI for jQuery ColorPicker widget wrapped as a React component.
 
-ColorPicker demos: [http://demos.telerik.com/kendo-ui/colorpicker/index](http://demos.telerik.com/kendo-ui/colorpicker/index)
-ColorPicker docs: [http://docs.telerik.com/kendo-ui/controls/editors/colorpicker/overview](http://docs.telerik.com/kendo-ui/controls/editors/colorpicker/overview)
-ColorPicker API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/colorpicker](http://docs.telerik.com/kendo-ui/api/javascript/ui/colorpicker)
+* ColorPicker demos: [http://demos.telerik.com/kendo-ui/colorpicker/index](http://demos.telerik.com/kendo-ui/colorpicker/index)
+* ColorPicker docs: [http://docs.telerik.com/kendo-ui/controls/editors/colorpicker/overview](http://docs.telerik.com/kendo-ui/controls/editors/colorpicker/overview)
+* ColorPicker API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/colorpicker](http://docs.telerik.com/kendo-ui/api/javascript/ui/colorpicker)
 
 ## Install
 
