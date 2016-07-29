@@ -17,7 +17,7 @@ npm i -S kendo-ui-react-jquery-dropdownlist
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import KendoColorPicker from 'kendo-ui-react-jquery-colorpicker';
+import KendoDropDownList from 'kendo-ui-react-jquery-dropdownlist';
 
 //Don't forget CSS, webpack used to include CSS
 import 'kendo-ui-core/css/web/kendo.common.core.min.css';
