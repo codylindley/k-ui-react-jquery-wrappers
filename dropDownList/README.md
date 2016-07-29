@@ -1,6 +1,10 @@
 # kendo-ui-react-jquery-dropdownlist
 
-> The Kendo UI for jQuery dropdownlist widget wrapped as a React component.
+The Kendo UI for jQuery DropDownList widget wrapped as a React component.
+
+DropDownList demos: [http://demos.telerik.com/kendo-ui/dropdownlist/index](http://demos.telerik.com/kendo-ui/dropdownlist/index)
+DropDownList docs: [http://docs.telerik.com/kendo-ui/controls/editors/dropdownlist/overview](http://docs.telerik.com/kendo-ui/controls/editors/dropdownlist/overview)
+DropDownList API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/dropdownlist](http://docs.telerik.com/kendo-ui/api/javascript/ui/dropdownlist)
 
 ## Install
 
