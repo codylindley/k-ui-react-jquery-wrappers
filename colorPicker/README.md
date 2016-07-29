@@ -25,13 +25,12 @@ import 'kendo-ui-core/css/web/kendo.default.min.css';
 
 var App = React.createClass({
   render: function() {
-	  return (
-			<KendoColorPicker
-				options={{
-					value:"#ffffff",
-					buttons:false
-			}} />
-  	);
+	return (
+		<KendoColorPicker options={{
+				value:"#ffffff",
+				buttons:false
+		}} />
+	);
   }
 });
 

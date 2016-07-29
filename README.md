@@ -59,7 +59,7 @@ var App = React.createClass({
 						}, {
 							text: "Item3",
 							value: "3"
-						}];,
+						}],
 						dataTextField: "text",
 						dataValueField: "value"
 					}}
