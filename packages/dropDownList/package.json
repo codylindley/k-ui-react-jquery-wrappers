@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-dropdownlist",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "The Kendo UI for jQuery dropDownList widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/dropDownList"
+    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/dropDownList/"
   },
   "keywords": [
     "Kendo",
