@@ -1,11 +1,11 @@
 // import/require dependencies
-import kuicolorpicker from 'kendo-ui-core/js/kendo.colorpicker.js';
+import kuicalendar from 'kendo-ui-core/js/kendo.calendar.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import deepDiff from 'deep-diff';
 
 // create a React component, that is a wrapper for a Kendo UI widget
-const KendoColorPicker = React.createClass({
+const KendoCalendar = React.createClass({
 
 	//component is in the DOM, so do stuff to it in this callback
 	componentDidMount: function() {
@@ -19,7 +19,7 @@ const KendoColorPicker = React.createClass({
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
-		this.widgetInstance = new kuicolorpicker.ui.ColorPicker(elementNode,this.props.options);
+		this.widgetInstance = new kuicalendar.ui.DropDownList(elementNode,this.props.options);
 
 		//if props are avaliable for events, triggers, unbind events, or methods make it happen now
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;
@@ -85,7 +85,7 @@ const KendoColorPicker = React.createClass({
 	//don't run render again, create widget once, then leave it alone
 	shouldComponentUpdate: function(){return false;},
 
-	//destroy it, when the component is unmouted
+	//destory it, when the component is unmouted
 	componentWillUnmount: function() {
 		this.widgetInstance.destroy();
 	},
@@ -97,4 +97,4 @@ const KendoColorPicker = React.createClass({
 });
 
 //export the wrapped component
-export default KendoColorPicker
+export default KendoCalendar

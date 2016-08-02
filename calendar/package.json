@@ -1,7 +1,7 @@
 {
-  "name": "kendo-ui-react-jquery-dropdownlist",
-  "version": "1.0.15",
-  "description": "The Kendo UI for jQuery dropDownList widget wrapped as a React component.",
+  "name": "kendo-ui-react-jquery-calendar",
+  "version": "1.0.2",
+  "description": "The Kendo UI for jQuery calendar widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/dropDownList"
+    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/calendar"
   },
   "keywords": [
     "Kendo",
