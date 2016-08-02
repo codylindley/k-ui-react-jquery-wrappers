@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-colorpicker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The Kendo UI for jQuery colorPicker widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/colorPicker"
+    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/colorPicker"
   },
   "keywords": [
     "Kendo",
