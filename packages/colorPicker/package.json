@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-colorpicker",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The Kendo UI for jQuery colorPicker widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
