@@ -2,10 +2,6 @@
 
 The Kendo UI for jQuery calendar widget wrapped as a React component.
 
-* Calendar demos: [http://demos.telerik.com/kendo-ui/calendar/index](http://demos.telerik.com/kendo-ui/calendar/index)
-* Calendar docs: [http://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview](http://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview)
-* Calendar API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar](http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar)
-
 ## Install
 
 ```bash
@@ -34,7 +30,15 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 ## React Props
 
-Every KUI React Wrapper can make use of a `options`, `methods`, `events`, `unbindEvents`, or `triggerEvents` props. Each is demonstrated below using a `<KendoDropDownList>`.
+Every KUI React Wrapper can make use of the following React props:
+
+* `options`
+* `methods`
+* `events`
+* `unbindEvents`
+* `triggerEvents`
+
+Each is demonstrated below using a `<KendoDropDownList>` KUI React wrapper.
 
 ```javascript
 <KendoDropDownList
@@ -76,6 +80,12 @@ Every KUI React Wrapper can make use of a `options`, `methods`, `events`, `unbin
 		<input className="kendoDropDownList" />
 </KendoDropDownList>
 ```
+
+## KUI API
+
+* Calendar demos: [http://demos.telerik.com/kendo-ui/calendar/index](http://demos.telerik.com/kendo-ui/calendar/index)
+* Calendar docs: [http://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview](http://docs.telerik.com/kendo-ui/controls/scheduling/calendar/overview)
+* Calendar API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar](http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar)
 
 ## License
 
