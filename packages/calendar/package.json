@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-calendar",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The Kendo UI for jQuery calendar widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
