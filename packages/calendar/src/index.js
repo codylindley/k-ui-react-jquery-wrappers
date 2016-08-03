@@ -1,5 +1,5 @@
 // import/require dependencies
-import kuicalendar from 'kendo-ui-core/js/kendo.calendar.js';
+import kuiCalendar from 'kendo-ui-core/js/kendo.calendar.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import deepDiff from 'deep-diff';
@@ -19,7 +19,7 @@ const KendoCalendar = React.createClass({
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
-		this.widgetInstance = new kuicalendar.ui.Calendar(elementNode,this.props.options);
+		this.widgetInstance = new kuiCalendar.ui.Calendar(elementNode,this.props.options);
 
 		//if props are avaliable for events, triggers, unbind events, or methods make it happen now
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;

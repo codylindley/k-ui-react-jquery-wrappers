@@ -1,5 +1,5 @@
 // import/require dependencies
-import kuidropdown from 'kendo-ui-core/js/kendo.dropdownlist.js';
+import kuiDropDownList from 'kendo-ui-core/js/kendo.dropdownlist.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import deepDiff from 'deep-diff';
@@ -19,7 +19,7 @@ const KendoDropDownList = React.createClass({
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
-		this.widgetInstance = new kuidropdown.ui.DropDownList(elementNode,this.props.options);
+		this.widgetInstance = new kuiDropDownList.ui.DropDownList(elementNode,this.props.options);
 
 		//if props are avaliable for events, triggers, unbind events, or methods make it happen now
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;
