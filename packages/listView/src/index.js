@@ -19,7 +19,7 @@ const KendoListView = React.createClass({
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
-		this.widgetInstance = new kuiListView.ui.Calendar(elementNode,this.props.options);
+		this.widgetInstance = new kuiListView.ui.ListView(elementNode,this.props.options);
 
 		//if props are avaliable for events, triggers, unbind events, or methods make it happen now
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;
