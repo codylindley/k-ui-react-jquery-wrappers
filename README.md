@@ -17,7 +17,7 @@ For example:
 </KendoDropDownList>
 ```
 
-## Available Wrappers
+## Available Wrappers on npm
 
 * [calendar](packages/calendar) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-calendar)
 * [colorPicker](packages/colorPicker) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker)
@@ -25,7 +25,7 @@ For example:
 * [dropDownList](packages/dropDownList) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist)
 * [listView](packages/listView) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-listview)
 
-## Installing Wrappers
+## Installing from npm Wrappers
 
 ```bash
 npm i -S kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. dropdownlist]
@@ -37,7 +37,7 @@ For example the following command will install the [dropDownList](colorPicker) w
 npm i -S kendo-ui-react-jquery-dropdownlist
 ```
 
-## Example Usage
+## Example Usage in React app (assumes webpack)
 
 ```javascript
 import React from 'react';
