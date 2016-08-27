@@ -2,6 +2,8 @@
 
 React component wrappers that you can include via npm so that [Kendo UI for jQuery widgets](http://demos.telerik.com/kendo-ui/) can be used in a React app.
 
+Read more about it here: [http://developer.telerik.com/featured/using-kendo-ui-jquery-react-app/](http://developer.telerik.com/featured/using-kendo-ui-jquery-react-app/)
+
 For example:
 
 ```
