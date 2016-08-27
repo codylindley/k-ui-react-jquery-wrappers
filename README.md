@@ -21,6 +21,7 @@ For example:
 * [colorPicker](packages/colorPicker) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker)
 * [datePicker](packages/datePicker) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker)
 * [dropDownList](packages/dropDownList) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist)
+* [listView](packages/listView) on [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-listview)
 
 ## Installing Wrappers
 
