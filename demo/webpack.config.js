@@ -15,8 +15,7 @@ module.exports = {
 			{ test: /\.gif$/, loader: "file-loader" },
 			{ test: /\.txt$/, loader: "raw-loader" },
 			{ test: /\.json$/, loader: "json-loader" },
-			{ test: /\.woff(2)?(\?v=[0-9].[0-9].[0-9])?$/, loader: "url-loader?mimetype=application/font-woff" },
-		    { test: /\.(ttf|eot|svg)(\?v=[0-9].[0-9].[0-9])?$/, loader: "file-loader?name=[name].[ext]" },
+		    { test: /.(woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/, loader: 'url-loader?limit=100000' },
 			{ test: /\.css$/,loader: ExtractTextPlugin.extract("style-loader", "css-loader")
 		}, {
 			loader: 'babel-loader',
