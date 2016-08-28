@@ -26,9 +26,9 @@ Git might have problems resolving your home directory if it contains spaces in i
 
 ***On Mac:***
 
-Create a file called `.netrc` in your home directory (`~/.netrc`). Make sure you modify the file permissions to make it readable only to you.
+Create a file called `.netrc` in your home directory `~/.netrc` (i.e `/User/USERNAME/.netrc`). Make sure you modify the file permissions to make it readable only to you.
 
-Add your credentials to the `~/.netrc` file using the format from the example below.
+Add your credentials to the `~/.netrc` (i.e `/User/USERNAME/.netrc`) file using the format from the example below.
 
 EXAMPLE:
 

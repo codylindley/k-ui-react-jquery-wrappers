@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-grid",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "The Kendo UI for jQuery grid widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
