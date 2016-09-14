@@ -45,7 +45,7 @@ const KendoCalendar = React.createClass({
 	},
 	callKendoWidgetMethods:function(methods){
 		Object.keys(methods).forEach(function(method){//loop over methods and call
-		    this.widgetInstance[method](...methods[method])
+			this.widgetInstance[method](...methods[method]);
 		}, this);
 	},
 
@@ -80,7 +80,7 @@ const KendoCalendar = React.createClass({
 				this.triggerKendoWidgetEvents(nextProps.triggerEvents);
 			}
 		}
-  	},
+	},
 
 	//don't run render again, create widget once, then leave it alone
 	shouldComponentUpdate: function(){return false;},
@@ -97,4 +97,4 @@ const KendoCalendar = React.createClass({
 });
 
 //export the wrapped component
-export default KendoCalendar
+export default KendoCalendar;
