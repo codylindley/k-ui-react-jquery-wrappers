@@ -1,7 +1,7 @@
 {
-  "name": "kendo-ui-react-jquery-calendar",
-  "version": "1.0.10",
-  "description": "The Kendo UI for jQuery calendar widget wrapped as a React component.",
+  "name": "kendo-ui-react-jquery-spreadsheet",
+  "version": "1.0.0",
+  "description": "The Kendo UI for jQuery spreadsheet widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/calendar"
+    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/spreadsheet"
   },
   "keywords": [
     "Kendo",
@@ -23,7 +23,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "deep-diff": "^0.3.4",
-    "kendo-ui-core": "^2016.2.727",
+    "kendo": "git+https://bower.telerik.com/npm-kendo-ui.git#2016.2.727",
     "react": "^15.3.0",
     "react-dom": "^15.3.0"
   },

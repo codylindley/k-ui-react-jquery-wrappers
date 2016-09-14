@@ -4,7 +4,6 @@
   "description": "The Kendo UI for jQuery listView widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "mocha test/.setup.js test/test.js",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "prepublish": "npm test && npm run build"
   },
@@ -30,13 +29,6 @@
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-airbnb": "^2.0.0",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-register": "^6.11.6",
-    "chai": "^3.5.0",
-    "enzyme": "^2.4.1",
-    "jsdom": "^9.4.2",
-    "mocha": "^3.0.2",
-    "react-addons-test-utils": "^15.3.0"
+    "babel-preset-es2015": "^6.13.2"
   }
 }
