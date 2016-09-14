@@ -19,21 +19,21 @@ For example:
 
 ## Available Wrappers on npm
 
-| Feature | Core | [Professional](http://www.telerik.com/kendo-ui) | wrapper on npm | github |
+| Feature | [Core]() (free) | [Professional](http://www.telerik.com/kendo-ui) (Paid) | wrapper on npm | github |
 | ------- | :----: | :--------: | :------------------: | ------------------ |
 | **Data Management**       |
-| [Grid](http://demos.telerik.com/kendo-ui/grid/index)                  | :x:  | :white_check_mark: |  [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/grid)
+| [Grid](http://demos.telerik.com/kendo-ui/grid/index)                  | :x:  | :white_check_mark: |  [`npm install kendo-ui-react-jquery-grid`](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/grid)
 | [Spreadsheet](http://demos.telerik.com/kendo-ui/spreadsheet/index)    | :x:  | :white_check_mark: | |
-| [ListView](http://demos.telerik.com/kendo-ui/listview/index)          | :white_check_mark: | :white_check_mark: |[npm](https://www.npmjs.com/package/kendo-ui-react-jquery-listview) | [source](packages/listView)
+| [ListView](http://demos.telerik.com/kendo-ui/listview/index)          | :white_check_mark: | :white_check_mark: |[`npm install kendo-ui-react-jquery-listview`](https://www.npmjs.com/package/kendo-ui-react-jquery-listview) | [source](packages/listView)
 | [PivotGrid](http://demos.telerik.com/kendo-ui/pivotgrid/index)        | :x:  | :white_check_mark: | |
 | [TreeList](http://demos.telerik.com/kendo-ui/treelist/index)          | :x:  | :white_check_mark: | |
 | **Editors**               |
 | [AutoComplete](http://demos.telerik.com/kendo-ui/autocomplete/index)  | :white_check_mark: | :white_check_mark: | |
 | [Color Picker](http://demos.telerik.com/kendo-ui/colorpicker/index)   | :white_check_mark: | :white_check_mark: | | 
-| [ComboBox](http://demos.telerik.com/kendo-ui/combobox/index)          | :white_check_mark: | :white_check_mark: | [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker) | [source](packages/colorPicker)
-| [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
+| [ComboBox](http://demos.telerik.com/kendo-ui/combobox/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-colorpicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker) | [source](packages/colorPicker)
+| [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
 | [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | |
-| [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/dropDownList)
+| [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
 | [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: |
 | [MaskedTextBox](http://demos.telerik.com/kendo-ui/maskedtextbox/index)| :white_check_mark: | :white_check_mark: | |
 | [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | |
@@ -72,7 +72,7 @@ For example:
 | [Diagram](http://demos.telerik.com/kendo-ui/diagram/index)            | :x: | :white_check_mark: | |
 | [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | |
 | **Scheduling**            |
-| [Calendar](http://demos.telerik.com/kendo-ui/calendar/index)          | :white_check_mark: | :white_check_mark: | [npm](https://www.npmjs.com/package/kendo-ui-react-jquery-calendar) | [source](packages/calendar)
+| [Calendar](http://demos.telerik.com/kendo-ui/calendar/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-calendar`](https://www.npmjs.com/package/kendo-ui-react-jquery-calendar) | [source](packages/calendar)
 | [Gantt](http://demos.telerik.com/kendo-ui/gantt/index)                | :x:  | :white_check_mark: | |
 | [Scheduler](http://demos.telerik.com/kendo-ui/scheduler/index)        | :x:  | :white_check_mark: | |
 | **Layout**                |
