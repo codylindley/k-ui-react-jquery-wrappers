@@ -25,8 +25,10 @@
     "kendo-ui-react-jquery-colorpicker": "^1.0.10",
     "kendo-ui-react-jquery-datepicker": "^1.0.1",
     "kendo-ui-react-jquery-dropdownlist": "^1.0.23",
+    "kendo-ui-react-jquery-grid": "^1.0.0",
     "kendo-ui-react-jquery-listview": "^1.0.0",
-	"kendo-ui-react-jquery-grid": "^1.0.0",
+    "kendo-ui-react-jquery-spreadsheet": "^1.0.2",
+    "kendo-ui-react-jquery-treelist": "^1.0.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }
