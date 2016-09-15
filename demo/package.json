@@ -1,7 +1,7 @@
 {
   "scripts": {
     "webpack": "webpack --watch --display-modules",
-    "server": "browser-sync --port 4000 start --server --files \"**/*.html\" \"build/**/*.css\" \"build/**/*.js\" "
+    "server": "browser-sync --port 5000 start --server --files \"**/*.html\" \"build/**/*.css\" \"build/**/*.js\" "
   },
   "devDependencies": {
     "babel-core": "^6.8.0",

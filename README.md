@@ -94,29 +94,6 @@ For example:
 | [Effects](http://demos.telerik.com/kendo-ui/fx/expand)                | :white_check_mark: | :white_check_mark: | |
 | [ProgressBar](http://demos.telerik.com/kendo-ui/progressbar/index)    | :white_check_mark: | :white_check_mark: | |
 | [Sortable](http://demos.telerik.com/kendo-ui/sortable/index)          | :white_check_mark: | :white_check_mark: | |
-| [Styling](http://demos.telerik.com/kendo-ui/styling/index)            | :white_check_mark: | :white_check_mark: | |
-| **Hybrid UI**     |
-| [Widgets](http://demos.telerik.com/kendo-ui/m/index)                  | :white_check_mark: | :white_check_mark: | |
-| [Mobile Application](http://demos.telerik.com/kendo-ui/m/index)       | :white_check_mark: | :white_check_mark: | |
-| [Mobile Forms](http://demos.telerik.com/kendo-ui/m/index)             | :white_check_mark: | :white_check_mark: | |
-| [Mobile Layout](http://demos.telerik.com/kendo-ui/m/index)            | :white_check_mark: | :white_check_mark: | |
-| [Mobile SplitView](http://demos.telerik.com/kendo-ui/m/index)         | :white_check_mark: | :white_check_mark: | |
-| [Mobile Theme Builder](http://demos.telerik.com/kendo-ui/mobilethemebuilder)| :white_check_mark: | :white_check_mark: | |
-| [Mobile Touch Events](http://demos.telerik.com/kendo-ui/m/index)      | :white_check_mark: | :white_check_mark: | |
-| [Mobile View](http://demos.telerik.com/kendo-ui/m/index)              | :white_check_mark: | :white_check_mark: | |
-| **Tools, Frameworks and Utilities**   |
-| [Chrome Inspector](https://chrome.google.com/webstore/category/apps)  | :white_check_mark:   | :white_check_mark: | |
-| [DataSource](http://demos.telerik.com/kendo-ui/datasource/index)      | :white_check_mark:   | :white_check_mark: | |
-| [Drawing API](http://demos.telerik.com/kendo-ui/drawing/index)        | :x: | :white_check_mark: | |
-| [Excel Export](http://docs.telerik.com/kendo-ui/framework/excel/introduction) | :x: | :white_check_mark: | |
-| [Globalization](http://demos.telerik.com/kendo-ui/globalization/index)| :white_check_mark:   | :white_check_mark: | |
-| [HierarchicalDataSource](http://docs.telerik.com/kendo-ui/framework/hierarchicaldatasource/overview) | :white_check_mark: | :white_check_mark: | |
-| [Bootstrap Friendly](http://demos.telerik.com/kendo-ui/integration/bootstrap)| :white_check_mark: | :white_check_mark: | |
-| [Localization](http://docs.telerik.com/kendo-ui/framework/localization/overview) | :white_check_mark: | :white_check_mark: | |
-| [PDF Export](http://demos.telerik.com/kendo-ui/pdf-export/index)      | :x: | :white_check_mark: |
-| [Templates](http://demos.telerik.com/kendo-ui/templates/index)        | :white_check_mark: | :white_check_mark: | |
-| [ThemeBuilder](http://demos.telerik.com/kendo-ui/themebuilder)        | :white_check_mark: | :white_check_mark: | |
-| **Official Support**                                                  | :x:  | :white_check_mark: | |
 
 ## Installing from npm Wrappers
 
