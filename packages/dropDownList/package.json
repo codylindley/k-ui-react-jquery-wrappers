@@ -1,7 +1,7 @@
 {
   "name": "kendo-ui-react-jquery-dropdownlist",
   "version": "1.0.24",
-  "description": "The Kendo UI for jQuery dropDownList widget wrapped as a React component.",
+  "description": "The Kendo UI for jQuery DropDownList widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",

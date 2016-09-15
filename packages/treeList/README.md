@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-treelist
 
-The Kendo UI for jQuery treelist widget wrapped as a React component.
+The Kendo UI for jQuery TreeList widget wrapped as a React component.
 
 ***WARNING:*** Must install professional version of Kendo UI using credentials.
 

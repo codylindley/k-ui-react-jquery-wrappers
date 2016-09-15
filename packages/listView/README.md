@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-listview
 
-The Kendo UI for jQuery listView widget wrapped as a React component.
+The Kendo UI for jQuery ListView widget wrapped as a React component.
 
 ## Install
 

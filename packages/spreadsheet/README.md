@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-spreadsheet
 
-The Kendo UI for jQuery spreadsheet widget wrapped as a React component.
+The Kendo UI for jQuery Spreadsheet widget wrapped as a React component.
 
 ***WARNING:*** Must install professional version of Kendo UI using credentials.
 

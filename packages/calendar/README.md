@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-calendar
 
-The Kendo UI for jQuery calendar widget wrapped as a React component.
+The Kendo UI for jQuery Calendar widget wrapped as a React component.
 
 ## Install
 

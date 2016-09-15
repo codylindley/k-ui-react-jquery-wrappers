@@ -1,6 +1,6 @@
 # kendo-ui-react-jquery-grid
 
-The Kendo UI for jQuery grid widget wrapped as a React component.
+The Kendo UI for jQuery Grid widget wrapped as a React component.
 
 ***WARNING:*** Must install professional version of Kendo UI using credentials.
 

@@ -23,7 +23,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "deep-diff": "^0.3.4",
-    "kendo": "git+https://bower.telerik.com/npm-kendo-ui.git#2016.2.727",
+    "kendo": "git+https://bower.telerik.com/npm-kendo-ui.git#2016.2.909",
     "react": "^15.3.0",
     "react-dom": "^15.3.0"
   },
