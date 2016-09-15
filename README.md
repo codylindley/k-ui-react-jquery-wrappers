@@ -1,13 +1,13 @@
 # Kendo UI (for jQuery) React Component Wrappers
 
-React component wrappers that you can include via npm so that [Kendo UI for jQuery widgets](http://demos.telerik.com/kendo-ui/) can be used in a React app.
+React component wrappers (around Kendo UI) that you can include via npm so that [Kendo UI for jQuery widgets](http://demos.telerik.com/kendo-ui/) can be used in a React app.
 
 Read more about it here: [http://developer.telerik.com/featured/using-kendo-ui-jquery-react-app/](http://developer.telerik.com/featured/using-kendo-ui-jquery-react-app/)
 
 For example:
 
 ```
-<KendoDropDownList options={{configuration:values}}>
+<KendoDropDownList options={{index: 0}}>
 	<select>
 		<option>S - 6 3/5"</option>
 		<option>M - 7 1/4"</option>
@@ -95,16 +95,16 @@ For example:
 | [ProgressBar](http://demos.telerik.com/kendo-ui/progressbar/index)    | :white_check_mark: | :white_check_mark: | |
 | [Sortable](http://demos.telerik.com/kendo-ui/sortable/index)          | :white_check_mark: | :white_check_mark: | |
 
-## Installing from npm Wrappers
+## Installing wrappers from npm 
 
 ```bash
-npm i -S kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. dropdownlist]
+npm i kendo-ui-react-jquery-[NAME OF WIDGET ALL LOWERCASE e.g. dropdownlist]
 ```
 
 For example the following command will install the [dropDownList](colorPicker) wrapper:
 
 ```bash
-npm i -S kendo-ui-react-jquery-dropdownlist
+npm i kendo-ui-react-jquery-dropdownlist
 ```
 
 ## Example Usage in React app (assumes webpack)
