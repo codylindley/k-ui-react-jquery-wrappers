@@ -25,7 +25,7 @@ For example:
 | [Grid](http://demos.telerik.com/kendo-ui/grid/index)                  | :x:  | :white_check_mark: |  [`npm install kendo-ui-react-jquery-grid`](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/grid)
 | [Spreadsheet](http://demos.telerik.com/kendo-ui/spreadsheet/index)    | :x:  | :white_check_mark: | |
 | [ListView](http://demos.telerik.com/kendo-ui/listview/index)          | :white_check_mark: | :white_check_mark: |[`npm install kendo-ui-react-jquery-listview`](https://www.npmjs.com/package/kendo-ui-react-jquery-listview) | [source](packages/listView)
-| [PivotGrid](http://demos.telerik.com/kendo-ui/pivotgrid/index)        | :x:  | :white_check_mark: | |
+| [PivotGrid](http://demos.telerik.com/kendo-ui/pivotgrid/index)        | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-pivotgrid`](https://www.npmjs.com/package/kendo-ui-react-jquery-pivotgrid) | [source](packages/pivotGrid)
 | [TreeList](http://demos.telerik.com/kendo-ui/treelist/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treelist`](https://www.npmjs.com/package/kendo-ui-react-jquery-treelist) | [source](packages/treeList)
 | **Editors**               |
 | [AutoComplete](http://demos.telerik.com/kendo-ui/autocomplete/index)  | :white_check_mark: | :white_check_mark: | |
