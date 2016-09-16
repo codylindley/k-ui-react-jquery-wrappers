@@ -34,7 +34,7 @@ For example:
 | [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
 | [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datetimepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datetimepicker) | [source](packages/dateTimePicker)
 | [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
-| [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: |
+| [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2176](https://github.com/telerik/kendo-ui-core/issues/2176) |
 | [MaskedTextBox](http://demos.telerik.com/kendo-ui/maskedtextbox/index)| :white_check_mark: | :white_check_mark: | |
 | [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | |
 | [NumericTextBox](http://demos.telerik.com/kendo-ui/numerictextbox/index) | :white_check_mark: | :white_check_mark: | |
