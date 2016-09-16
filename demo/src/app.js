@@ -16,6 +16,7 @@ import Kendo from 'kendo/js/kendo.core';
 import KendoTreeList from 'kendo-ui-react-jquery-treelist';
 import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
 import KendoAutoComplete from 'kendo-ui-react-jquery-autocomplete';
+import KendoComboBox from 'kendo-ui-react-jquery-combobox';
 
 console.log(KendoAutoComplete);
 
@@ -654,6 +655,17 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoComboBox</h2>
+					<KendoComboBox options={{
+						dataTextField: "text",
+						dataValueField: "value",
+						dataSource: [
+							{ text: "Item1", value: "1" },
+							{ text: "Item2", value: "2" }
+						]
+					}}></KendoComboBox>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoAutoComplete</h2>
 					<KendoAutoComplete options={{

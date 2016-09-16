@@ -31,6 +31,7 @@
     "kendo-ui-react-jquery-treelist": "^1.0.1",
     "kendo-ui-react-jquery-pivotgrid": "^1.0.1",
     "kendo-ui-react-jquery-autocomplete": "^1.0.0",
+    "kendo-ui-react-jquery-combobox": "^1.0.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }

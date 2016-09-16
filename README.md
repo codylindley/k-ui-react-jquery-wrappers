@@ -29,8 +29,8 @@ For example:
 | [TreeList](http://demos.telerik.com/kendo-ui/treelist/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treelist`](https://www.npmjs.com/package/kendo-ui-react-jquery-treelist) | [source](packages/treeList)
 | **Editors**               |
 | [AutoComplete](http://demos.telerik.com/kendo-ui/autocomplete/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-autocomplete`](https://www.npmjs.com/package/kendo-ui-react-jquery-autocomplete) | [source](packages/autoComplete)
-| [Color Picker](http://demos.telerik.com/kendo-ui/colorpicker/index)   | :white_check_mark: | :white_check_mark: | | 
-| [ComboBox](http://demos.telerik.com/kendo-ui/combobox/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-colorpicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker) | [source](packages/colorPicker)
+| [Color Picker](http://demos.telerik.com/kendo-ui/colorpicker/index)   | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-colorpicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker) | [source](packages/colorPicker)
+| [ComboBox](http://demos.telerik.com/kendo-ui/combobox/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-combobox`](https://www.npmjs.com/package/kendo-ui-react-jquery-combobox) | [source](packages/comboBox)
 | [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
 | [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | |
 | [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
