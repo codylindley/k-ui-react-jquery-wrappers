@@ -32,7 +32,7 @@ For example:
 | [Color Picker](http://demos.telerik.com/kendo-ui/colorpicker/index)   | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-colorpicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-colorpicker) | [source](packages/colorPicker)
 | [ComboBox](http://demos.telerik.com/kendo-ui/combobox/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-combobox`](https://www.npmjs.com/package/kendo-ui-react-jquery-combobox) | [source](packages/comboBox)
 | [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
-| [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | |
+| [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datetimepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datetimepicker) | [source](packages/dateTimePicker)
 | [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
 | [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: |
 | [MaskedTextBox](http://demos.telerik.com/kendo-ui/maskedtextbox/index)| :white_check_mark: | :white_check_mark: | |

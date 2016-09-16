@@ -17,6 +17,7 @@ import KendoTreeList from 'kendo-ui-react-jquery-treelist';
 import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
 import KendoAutoComplete from 'kendo-ui-react-jquery-autocomplete';
 import KendoComboBox from 'kendo-ui-react-jquery-combobox';
+import KendoDateTimePicker from 'kendo-ui-react-jquery-datetimepicker';
 
 console.log(KendoAutoComplete);
 
@@ -655,6 +656,12 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDateTimePicker</h2>
+					<KendoDateTimePicker options={{
+						value:new Date()
+					}}></KendoDateTimePicker>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoComboBox</h2>
 					<KendoComboBox options={{
