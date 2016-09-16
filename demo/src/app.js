@@ -15,6 +15,9 @@ import KendoSpreadsheet from 'kendo-ui-react-jquery-spreadsheet';
 import Kendo from 'kendo/js/kendo.core';
 import KendoTreeList from 'kendo-ui-react-jquery-treelist';
 import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
+import KendoAutoComplete from 'kendo-ui-react-jquery-autocomplete';
+
+console.log(KendoAutoComplete);
 
 //CSS
 //kendo-ui-core CSS files
@@ -566,6 +569,59 @@ var sheets = [{
 		}]
 }];
 
+var autoCompleteData = [
+	"Albania",
+	"Andorra",
+	"Armenia",
+	"Austria",
+	"Azerbaijan",
+	"Belarus",
+	"Belgium",
+	"Bosnia & Herzegovina",
+	"Bulgaria",
+	"Croatia",
+	"Cyprus",
+	"Czech Republic",
+	"Denmark",
+	"Estonia",
+	"Finland",
+	"France",
+	"Georgia",
+	"Germany",
+	"Greece",
+	"Hungary",
+	"Iceland",
+	"Ireland",
+	"Italy",
+	"Kosovo",
+	"Latvia",
+	"Liechtenstein",
+	"Lithuania",
+	"Luxembourg",
+	"Macedonia",
+	"Malta",
+	"Moldova",
+	"Monaco",
+	"Montenegro",
+	"Netherlands",
+	"Norway",
+	"Poland",
+	"Portugal",
+	"Romania",
+	"Russia",
+	"San Marino",
+	"Serbia",
+	"Slovakia",
+	"Slovenia",
+	"Spain",
+	"Sweden",
+	"Switzerland",
+	"Turkey",
+	"Ukraine",
+	"United Kingdom",
+	"Vatican City"
+];
+
 //Static Data
 var data = [{
 	text: "Item1",
@@ -599,28 +655,37 @@ var App = React.createClass({
 		return (
 			<div>
 				<div style={{ marginBottom: 150 }}>
+					<h2>KendoAutoComplete</h2>
+					<KendoAutoComplete options={{
+                        dataSource: autoCompleteData,
+                        filter: "startswith",
+                        placeholder: "Select country...",
+                        separator: ", "
+					}}></KendoAutoComplete>
+				</div>
+				<div style={{ marginBottom: 150 }}>
 					<h2>KendoPivotGrid</h2>
 					<KendoPivotGrid options={{
 						dataSource: {
-						type: "xmla", //define the type
-						columns: [{ name: "[Date].[Calendar]" }], //specify a dimesion on columns
-						rows: [{ name: "[Product].[Category]" }], //specify a dimesion on rows
-						measures: ["[Measures].[Internet Sales Amount]"], //specify a measure to display
-						transport: {
-						connection: {
-							catalog: "Adventure Works DW 2008R2", //specify the name of the catalog
-							cube: "Adventure Works" //specify the name of the cube
-						},
-						read: {
-							url: "http://demos.telerik.com/olap/msmdpump.dll", //define the URL of the service
-							dataType: "text",
-							contentType: "text/xml",
-							type: "POST"
-						}
-						},
-						schema: {
-						type: "xmla" //specify the type of the schema
-						},
+							type: "xmla", //define the type
+							columns: [{ name: "[Date].[Calendar]" }], //specify a dimesion on columns
+							rows: [{ name: "[Product].[Category]" }], //specify a dimesion on rows
+							measures: ["[Measures].[Internet Sales Amount]"], //specify a measure to display
+							transport: {
+								connection: {
+									catalog: "Adventure Works DW 2008R2", //specify the name of the catalog
+									cube: "Adventure Works" //specify the name of the cube
+								},
+								read: {
+									url: "http://demos.telerik.com/olap/msmdpump.dll", //define the URL of the service
+									dataType: "text",
+									contentType: "text/xml",
+									type: "POST"
+								}
+							},
+							schema: {
+								type: "xmla" //specify the type of the schema
+							},
 						}
 					}}></KendoPivotGrid>
 				</div>
