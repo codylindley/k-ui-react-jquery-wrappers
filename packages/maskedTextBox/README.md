@@ -21,7 +21,9 @@ import 'kendo-ui-core/css/web/kendo.default.min.css';
 
 var App = React.createClass({
   render: function() {
-	  return (<KendoMaskedTextBox><input options={{mask: "(999) 000-0000"}} value="555 123 4567" /></KendoMaskedTextBox>);
+	  return (<KendoMaskedTextBox options={{mask: "(999) 000-0000"}}>
+	  	<input value="555 123 4567" />
+	  </KendoMaskedTextBox>);
 	}
 });
 
