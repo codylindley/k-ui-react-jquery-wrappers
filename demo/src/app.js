@@ -21,10 +21,13 @@ import KendoDateTimePicker from 'kendo-ui-react-jquery-datetimepicker';
 import KendoEditor from 'kendo-ui-react-jquery-editor';
 import KendoMaskedTextBox from 'kendo-ui-react-jquery-maskedtextbox';
 
+import KendoMultiSelect from 'kendo-ui-react-jquery-multiselect';
+
 //CSS
 //kendo-ui-core CSS files
 //import 'kendo-ui-core/css/web/kendo.common.core.min.css';
 //import 'kendo-ui-core/css/web/kendo.default.min.css';
+
 //kendo Professional CSS files (if included don't include kendo-ui-core)
 import 'kendo/css/web/kendo.common.min.css';
 import 'kendo/css/web/kendo.default.min.css';
@@ -656,6 +659,32 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoMultiSelect</h2>
+					<KendoMultiSelect>
+						<select id="required" multiple="multiple" data-placeholder="Select attendees...">
+						<option>Steven White</option>
+						<option>Nancy King</option>
+						<option>Nancy Davolio</option>
+						<option>Robert Davolio</option>
+						<option>Michael Leverling</option>
+						<option>Andrew Callahan</option>
+						<option>Michael Suyama</option>
+						<option selected>Anne King</option>
+						<option>Laura Peacock</option>
+						<option>Robert Fuller</option>
+						<option>Janet White</option>
+						<option>Nancy Leverling</option>
+						<option>Robert Buchanan</option>
+						<option>Margaret Buchanan</option>
+						<option selected>Andrew Fuller</option>
+						<option>Anne Davolio</option>
+						<option>Andrew Suyama</option>
+						<option>Nige Buchanan</option>
+						<option>Laura Fuller</option>
+						</select>
+					</KendoMultiSelect>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoMaskedTextBox</h2>
 					<KendoMaskedTextBox options={{mask: "(999) 000-0000"}}><input value="555 123 4567" /></KendoMaskedTextBox>

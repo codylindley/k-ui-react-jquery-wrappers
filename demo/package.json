@@ -35,6 +35,7 @@
     "kendo-ui-react-jquery-datetimepicker": "^1.0.0",
     "kendo-ui-react-jquery-editor": "^1.0.0",
     "kendo-ui-react-jquery-maskedtextbox": "^1.0.0",
+    "kendo-ui-react-jquery-multiselect": "^1.0.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }
