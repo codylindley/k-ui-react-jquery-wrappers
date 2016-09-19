@@ -36,7 +36,7 @@ For example:
 | [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
 | [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2176](https://github.com/telerik/kendo-ui-core/issues/2176) |
 | [MaskedTextBox](http://demos.telerik.com/kendo-ui/maskedtextbox/index)| :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-maskedtextbox`](https://www.npmjs.com/package/kendo-ui-react-jquery-maskedtextbox) | [source](packages/maskedTextBox)
-| [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | |
+| [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-multiselect`](https://www.npmjs.com/package/kendo-ui-react-jquery-multiselect) | [source](packages/multiSelect)
 | [NumericTextBox](http://demos.telerik.com/kendo-ui/numerictextbox/index) | :white_check_mark: | :white_check_mark: | |
 | [Slider](http://demos.telerik.com/kendo-ui/slider/index)              | :white_check_mark:| :white_check_mark: | |
 | [Switch](http://demos.telerik.com/kendo-ui/switch/index)              | :x:  | :white_check_mark: |
