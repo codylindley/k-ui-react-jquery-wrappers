@@ -18,8 +18,8 @@ import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
 import KendoAutoComplete from 'kendo-ui-react-jquery-autocomplete';
 import KendoComboBox from 'kendo-ui-react-jquery-combobox';
 import KendoDateTimePicker from 'kendo-ui-react-jquery-datetimepicker';
-
-console.log(KendoAutoComplete);
+import KendoEditor from 'kendo-ui-react-jquery-editor';
+import KendoMaskedTextBox from 'kendo-ui-react-jquery-maskedtextbox';
 
 //CSS
 //kendo-ui-core CSS files
@@ -656,6 +656,14 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoMaskedTextBox</h2>
+					<KendoMaskedTextBox options={{mask: "(999) 000-0000"}}><input value="555 123 4567" /></KendoMaskedTextBox>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoEditor</h2>
+					{/*<KendoEditor></KendoEditor>*/}
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoDateTimePicker</h2>
 					<KendoDateTimePicker options={{
