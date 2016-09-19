@@ -22,6 +22,8 @@ import KendoEditor from 'kendo-ui-react-jquery-editor';
 import KendoMaskedTextBox from 'kendo-ui-react-jquery-maskedtextbox';
 import KendoMultiSelect from 'kendo-ui-react-jquery-multiselect';
 import KendoNumericTextBox from 'kendo-ui-react-jquery-numerictextbox';
+import KendoSlider from 'kendo-ui-react-jquery-slider';
+import KendoTimePicker from 'kendo-ui-react-jquery-timepicker';
 
 //CSS
 //kendo-ui-core CSS files
@@ -659,6 +661,24 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoTimePicker</h2>
+					<KendoTimePicker options={{ value: new Date(2011, 0, 1, 10, 30)}}>
+						<input />
+					</KendoTimePicker>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoSlider</h2>
+					<KendoSlider options={{
+						increaseButtonTitle: "Right",
+						decreaseButtonTitle: "Left",
+						min: -10,
+						max: 10,
+						smallStep: 2,
+						largeStep: 1
+						}}>
+					</KendoSlider>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoNumericTextBox</h2>
 					<KendoNumericTextBox options={{

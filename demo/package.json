@@ -37,6 +37,8 @@
     "kendo-ui-react-jquery-maskedtextbox": "^1.0.0",
     "kendo-ui-react-jquery-multiselect": "^1.0.0",
     "kendo-ui-react-jquery-numerictextbox": "^1.0.0",
+    "kendo-ui-react-jquery-slider": "^1.0.0",
+    "kendo-ui-react-jquery-timepicker": "^1.0.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }
