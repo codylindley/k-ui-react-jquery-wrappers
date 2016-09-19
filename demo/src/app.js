@@ -20,8 +20,8 @@ import KendoComboBox from 'kendo-ui-react-jquery-combobox';
 import KendoDateTimePicker from 'kendo-ui-react-jquery-datetimepicker';
 import KendoEditor from 'kendo-ui-react-jquery-editor';
 import KendoMaskedTextBox from 'kendo-ui-react-jquery-maskedtextbox';
-
 import KendoMultiSelect from 'kendo-ui-react-jquery-multiselect';
+import KendoNumericTextBox from 'kendo-ui-react-jquery-numerictextbox';
 
 //CSS
 //kendo-ui-core CSS files
@@ -659,6 +659,17 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoNumericTextBox</h2>
+					<KendoNumericTextBox options={{
+							format: "p0",
+							placeholder: "Select A Value",
+							min: 0,
+							max: 0.1,
+							step: 0.01
+						}}>
+					</KendoNumericTextBox>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoMultiSelect</h2>
 					<KendoMultiSelect>
