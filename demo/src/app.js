@@ -28,6 +28,7 @@ import KendoTreeView from 'kendo-ui-react-jquery-treeview';
 import KendoUpload from 'kendo-ui-react-jquery-upload';
 import KendoValidator from 'kendo-ui-react-jquery-validator';
 import KendoButton from 'kendo-ui-react-jquery-button';
+import KendoMenu from 'kendo-ui-react-jquery-menu';
 
 //CSS
 //kendo-ui-core CSS files
@@ -665,6 +666,20 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoMenu</h2>
+					<KendoMenu>
+						<ul>
+							<li>root item 1</li>
+							<li>root item 2
+								<ul>
+									<li>child item 1</li>
+									<li>child item 2</li>
+								</ul>
+							</li>			
+						</ul>
+					</KendoMenu>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoButton</h2>
 					<KendoButton>button</KendoButton>

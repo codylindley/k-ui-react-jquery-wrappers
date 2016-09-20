@@ -33,6 +33,7 @@
     "kendo-ui-react-jquery-grid": "^1.0.0",
     "kendo-ui-react-jquery-listview": "^1.0.0",
     "kendo-ui-react-jquery-maskedtextbox": "^1.0.0",
+    "kendo-ui-react-jquery-menu": "^1.0.1",
     "kendo-ui-react-jquery-multiselect": "^1.0.0",
     "kendo-ui-react-jquery-numerictextbox": "^1.0.0",
     "kendo-ui-react-jquery-pivotgrid": "^1.0.1",
