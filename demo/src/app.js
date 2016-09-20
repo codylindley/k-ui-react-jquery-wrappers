@@ -25,6 +25,7 @@ import KendoNumericTextBox from 'kendo-ui-react-jquery-numerictextbox';
 import KendoSlider from 'kendo-ui-react-jquery-slider';
 import KendoTimePicker from 'kendo-ui-react-jquery-timepicker';
 import KendoTreeView from 'kendo-ui-react-jquery-treeview';
+import KendoUpload from 'kendo-ui-react-jquery-upload';
 
 //CSS
 //kendo-ui-core CSS files
@@ -662,6 +663,10 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoUpload</h2>
+					<KendoUpload />
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoTreeView</h2>
 					<KendoTreeView>

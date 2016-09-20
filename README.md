@@ -40,7 +40,7 @@ For example:
 | [NumericTextBox](http://demos.telerik.com/kendo-ui/numerictextbox/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-numerictextbox`](https://www.npmjs.com/package/kendo-ui-react-jquery-numerictextbox) | [source](packages/numericTextbox)
 | [Slider](http://demos.telerik.com/kendo-ui/slider/index)              | :white_check_mark:| :white_check_mark: | [`npm install kendo-ui-react-jquery-slider`](https://www.npmjs.com/package/kendo-ui-react-jquery-slider) | [source](packages/slider)
 | [TimePicker](http://demos.telerik.com/kendo-ui/timepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-timepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-timepicker) | [source](packages/timePicker)
-| [Upload](http://demos.telerik.com/kendo-ui/upload/index)              | :x:  | :white_check_mark: |
+| [Upload](http://demos.telerik.com/kendo-ui/upload/index)              | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-upload`](https://www.npmjs.com/package/kendo-ui-react-jquery-upload) | [source](packages/upload)
 | [Validator](http://demos.telerik.com/kendo-ui/validator/index)        | :white_check_mark:  | :white_check_mark: | |
 | **Charts**                |
 | [Area Charts](http://demos.telerik.com/kendo-ui/area-charts/index)    | :x: | :white_check_mark: | |
@@ -113,7 +113,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import KendoDropDownList from 'kendo-ui-react-jquery-dropdownlist';
 
-//Don't forget CSS, webpack used to include CSS
+//Don't forget CSS, webpack plugin used to include CSS
 import 'kendo-ui-core/css/web/kendo.common.core.min.css';
 import 'kendo-ui-core/css/web/kendo.default.min.css';
 

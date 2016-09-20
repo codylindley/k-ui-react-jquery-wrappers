@@ -1,0 +1,35 @@
+{
+  "name": "kendo-ui-react-jquery-upload",
+  "version": "1.0.2",
+  "description": "The Kendo UI for jQuery Upload widget wrapped as a React component.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codylindley/k-ui-react-jquery-wrappers/tree/master/packages/upload"
+  },
+  "keywords": [
+    "Kendo",
+    "UI",
+    "jQuery",
+    "React",
+    "Widgets",
+    "Components"
+  ],
+  "author": "cody lindley <contact@codylindley.com> (http://www.codylindley.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "deep-diff": "^0.3.4",
+    "kendo": "git+https://bower.telerik.com/npm-kendo-ui.git#2016.2.909",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-airbnb": "^2.0.0"
+  }
+}
