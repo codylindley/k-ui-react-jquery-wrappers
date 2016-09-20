@@ -24,6 +24,7 @@ import KendoMultiSelect from 'kendo-ui-react-jquery-multiselect';
 import KendoNumericTextBox from 'kendo-ui-react-jquery-numerictextbox';
 import KendoSlider from 'kendo-ui-react-jquery-slider';
 import KendoTimePicker from 'kendo-ui-react-jquery-timepicker';
+import KendoTreeView from 'kendo-ui-react-jquery-treeview';
 
 //CSS
 //kendo-ui-core CSS files
@@ -661,6 +662,20 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoTreeView</h2>
+					<KendoTreeView>
+						<ul>
+							<li>Item 1
+								<ul>
+									<li>Item 1.1</li>
+									<li>Item 1.2</li>
+								</ul>
+							</li>
+							<li>Item 2</li>
+						</ul>
+					</KendoTreeView>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoTimePicker</h2>
 					<KendoTimePicker options={{ value: new Date(2011, 0, 1, 10, 30)}}>

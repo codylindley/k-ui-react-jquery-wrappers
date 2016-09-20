@@ -39,7 +39,7 @@ For example:
 | [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-multiselect`](https://www.npmjs.com/package/kendo-ui-react-jquery-multiselect) | [source](packages/multiSelect)
 | [NumericTextBox](http://demos.telerik.com/kendo-ui/numerictextbox/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-numerictextbox`](https://www.npmjs.com/package/kendo-ui-react-jquery-numerictextbox) | [source](packages/numericTextbox)
 | [Slider](http://demos.telerik.com/kendo-ui/slider/index)              | :white_check_mark:| :white_check_mark: | [`npm install kendo-ui-react-jquery-slider`](https://www.npmjs.com/package/kendo-ui-react-jquery-slider) | [source](packages/slider)
-| [TimePicker](http://demos.telerik.com/kendo-ui/timepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-timePicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-timePicker) | [source](packages/timePicker)
+| [TimePicker](http://demos.telerik.com/kendo-ui/timepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-timepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-timepicker) | [source](packages/timePicker)
 | [Upload](http://demos.telerik.com/kendo-ui/upload/index)              | :x:  | :white_check_mark: |
 | [Validator](http://demos.telerik.com/kendo-ui/validator/index)        | :white_check_mark:  | :white_check_mark: | |
 | **Charts**                |
@@ -87,7 +87,7 @@ For example:
 | [PanelBar](http://demos.telerik.com/kendo-ui/panelbar/index)          | :white_check_mark: | :white_check_mark: | |
 | [TabStrip](http://demos.telerik.com/kendo-ui/tabstrip/index)          | :white_check_mark: | :white_check_mark: | |
 | [ToolBar](http://demos.telerik.com/kendo-ui/toolbar/index)            | :white_check_mark: | :white_check_mark: | |
-| [TreeView](http://demos.telerik.com/kendo-ui/treeview/index)          | :x:  | :white_check_mark: |
+| [TreeView](http://demos.telerik.com/kendo-ui/treeview/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treeview`](https://www.npmjs.com/package/kendo-ui-react-jquery-treeview) | [source](packages/treeView)
 | **Interactivity and UX**  |
 | [Drag-and-Drop](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | |
 | [Effects](http://demos.telerik.com/kendo-ui/fx/expand)                | :white_check_mark: | :white_check_mark: | |
