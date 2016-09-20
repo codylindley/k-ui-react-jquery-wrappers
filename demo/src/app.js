@@ -26,6 +26,7 @@ import KendoSlider from 'kendo-ui-react-jquery-slider';
 import KendoTimePicker from 'kendo-ui-react-jquery-timepicker';
 import KendoTreeView from 'kendo-ui-react-jquery-treeview';
 import KendoUpload from 'kendo-ui-react-jquery-upload';
+import KendoValidator from 'kendo-ui-react-jquery-validator';
 
 //CSS
 //kendo-ui-core CSS files
@@ -663,6 +664,16 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoValidator</h2>
+						<KendoValidator>
+							<form>
+							<input name="username" required /> <br />
+							<input type="email" name="userEmail" required data-message="My custom email message" /> <br />
+							<button>Validate</button>
+							</form>
+						</KendoValidator>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoUpload</h2>
 					<KendoUpload />
