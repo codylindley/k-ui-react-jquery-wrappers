@@ -27,6 +27,7 @@ import KendoTimePicker from 'kendo-ui-react-jquery-timepicker';
 import KendoTreeView from 'kendo-ui-react-jquery-treeview';
 import KendoUpload from 'kendo-ui-react-jquery-upload';
 import KendoValidator from 'kendo-ui-react-jquery-validator';
+import KendoButton from 'kendo-ui-react-jquery-button';
 
 //CSS
 //kendo-ui-core CSS files
@@ -664,6 +665,10 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoButton</h2>
+					<KendoButton>button</KendoButton>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoValidator</h2>
 						<KendoValidator>

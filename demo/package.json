@@ -22,6 +22,7 @@
   "dependencies": {
     "deep-diff": "^0.3.4",
     "kendo-ui-react-jquery-autocomplete": "^1.0.0",
+    "kendo-ui-react-jquery-button": "^1.0.2",
     "kendo-ui-react-jquery-calendar": "^1.0.9",
     "kendo-ui-react-jquery-colorpicker": "^1.0.10",
     "kendo-ui-react-jquery-combobox": "^1.0.0",

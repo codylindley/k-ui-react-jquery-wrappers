@@ -81,8 +81,7 @@ For example:
 | [Tooltip](http://demos.telerik.com/kendo-ui/tooltip/index)            | :white_check_mark: | :white_check_mark: | |
 | [Window](http://demos.telerik.com/kendo-ui/window/index)              | :white_check_mark: | :white_check_mark: | |
 | **Navigation**            |
-| [Button](http://demos.telerik.com/kendo-ui/button/index)              | :white_check_mark: | :white_check_mark: | |
-| [ButtonGroup](http://demos.telerik.com/kendo-ui/buttongroup/index)    | :white_check_mark: | :white_check_mark: | |
+| [Button](http://demos.telerik.com/kendo-ui/button/index)              | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-button`](https://www.npmjs.com/package/kendo-ui-react-jquery-button) | [source](packages/button)
 | [Menu](http://demos.telerik.com/kendo-ui/menu/index)                  | :white_check_mark: | :white_check_mark: | |
 | [PanelBar](http://demos.telerik.com/kendo-ui/panelbar/index)          | :white_check_mark: | :white_check_mark: | |
 | [TabStrip](http://demos.telerik.com/kendo-ui/tabstrip/index)          | :white_check_mark: | :white_check_mark: | |
