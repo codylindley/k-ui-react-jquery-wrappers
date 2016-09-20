@@ -36,6 +36,7 @@
     "kendo-ui-react-jquery-menu": "^1.0.1",
     "kendo-ui-react-jquery-multiselect": "^1.0.0",
     "kendo-ui-react-jquery-numerictextbox": "^1.0.0",
+    "kendo-ui-react-jquery-panelbar": "^1.0.0",
     "kendo-ui-react-jquery-pivotgrid": "^1.0.1",
     "kendo-ui-react-jquery-slider": "^1.0.0",
     "kendo-ui-react-jquery-spreadsheet": "^1.0.2",

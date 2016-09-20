@@ -29,6 +29,7 @@ import KendoUpload from 'kendo-ui-react-jquery-upload';
 import KendoValidator from 'kendo-ui-react-jquery-validator';
 import KendoButton from 'kendo-ui-react-jquery-button';
 import KendoMenu from 'kendo-ui-react-jquery-menu';
+import KendoPanelBar from 'kendo-ui-react-jquery-panelbar';
 
 //CSS
 //kendo-ui-core CSS files
@@ -666,6 +667,26 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoPanelBar</h2>
+					<KendoPanelBar methods={{expand:['li:first']}}>
+						<ul>
+							<li>
+								Item 1
+									<ul>
+										<li>Sub Item 1</li>
+										<li>Sub Item 2</li>
+									</ul>
+							</li>
+							<li>Item 2
+								<ul>
+									<li>Sub Item 1</li>
+									<li>Sub Item 2</li>
+								</ul>
+							</li>
+						</ul>
+					</KendoPanelBar>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoMenu</h2>
 					<KendoMenu>
