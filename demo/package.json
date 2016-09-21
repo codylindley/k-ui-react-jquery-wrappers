@@ -40,6 +40,7 @@
     "kendo-ui-react-jquery-pivotgrid": "^1.0.1",
     "kendo-ui-react-jquery-slider": "^1.0.0",
     "kendo-ui-react-jquery-spreadsheet": "^1.0.2",
+    "kendo-ui-react-jquery-tabstrip": "^1.0.0",
     "kendo-ui-react-jquery-timepicker": "^1.0.0",
     "kendo-ui-react-jquery-treelist": "^1.0.1",
     "kendo-ui-react-jquery-treeview": "^1.0.0",

@@ -30,6 +30,7 @@ import KendoValidator from 'kendo-ui-react-jquery-validator';
 import KendoButton from 'kendo-ui-react-jquery-button';
 import KendoMenu from 'kendo-ui-react-jquery-menu';
 import KendoPanelBar from 'kendo-ui-react-jquery-panelbar';
+import KendoTabStrip from 'kendo-ui-react-jquery-tabstrip';
 
 //CSS
 //kendo-ui-core CSS files
@@ -667,6 +668,17 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoTabStrip</h2>
+					<KendoTabStrip>
+						<ul>
+							<li className="k-state-active">First tab</li>
+							<li>Second tab</li>
+						</ul>
+						<div>First tab content</div>
+						<div>Second tab content</div>
+					</KendoTabStrip>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoPanelBar</h2>
 					<KendoPanelBar methods={{expand:['li:first']}}>
