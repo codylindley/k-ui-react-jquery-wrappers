@@ -24,6 +24,7 @@
     "kendo-ui-react-jquery-autocomplete": "^1.0.2",
     "kendo-ui-react-jquery-button": "^1.0.3",
     "kendo-ui-react-jquery-calendar": "^1.0.13",
+    "kendo-ui-react-jquery-charts": "^1.0.0",
     "kendo-ui-react-jquery-colorpicker": "^1.0.13",
     "kendo-ui-react-jquery-combobox": "^1.0.1",
     "kendo-ui-react-jquery-datepicker": "^1.0.4",
