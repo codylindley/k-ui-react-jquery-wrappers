@@ -6,7 +6,7 @@ Read more about it here: [http://developer.telerik.com/featured/using-kendo-ui-j
 
 For example:
 
-```js
+```jsx
 <KendoDropDownList options={{index: 0}}>
 	<select>
 		<option>S - 6 3/5"</option>
