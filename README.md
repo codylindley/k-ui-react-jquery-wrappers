@@ -6,7 +6,7 @@ Read more about it here: [http://developer.telerik.com/featured/using-kendo-ui-j
 
 For example:
 
-```
+```js
 <KendoDropDownList options={{index: 0}}>
 	<select>
 		<option>S - 6 3/5"</option>
@@ -43,13 +43,12 @@ For example:
 | [Upload](http://demos.telerik.com/kendo-ui/upload/index)              | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-upload`](https://www.npmjs.com/package/kendo-ui-react-jquery-upload) | [source](packages/upload)
 | [Validator](http://demos.telerik.com/kendo-ui/validator/index)        | :white_check_mark:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-validator`](https://www.npmjs.com/package/kendo-ui-react-jquery-validator) | [source](packages/validator)
 | **Charts**                |
-| Charts:<br />[Area](http://demos.telerik.com/kendo-ui/area-charts/index)<br />[Bar](http://demos.telerik.com/kendo-ui/bar-charts/index)<br />[Box Plot](http://demos.telerik.com/kendo-ui/box-plot-charts/index)<br />[Bubble](http://demos.telerik.com/kendo-ui/bubble-charts/index)<br />[Bullet](http://demos.telerik.com/kendo-ui/bullet-charts/index)<br />[Donut](http://demos.telerik.com/kendo-ui/donut-charts/index)<br />[Funnel](http://demos.telerik.com/kendo-ui/funnel-charts/index)<br />[Line](http://demos.telerik.com/kendo-ui/line-charts/index)<br />[Pie](http://demos.telerik.com/kendo-ui/pie-charts/index)<br />[Polar](http://demos.telerik.com/kendo-ui/polar-charts/index)<br />[Radar](http://demos.telerik.com/kendo-ui/radar-charts/index)<br />[Range Bar](http://demos.telerik.com/kendo-ui/range-bar-charts/index)<br />[Scatter](http://demos.telerik.com/kendo-ui/scatter-charts/index)<br />[Waterfall](http://demos.telerik.com/kendo-ui/waterfall-charts/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-charts`](https://www.npmjs.com/package/kendo-ui-react-jquery-charts) | [source](packages/charts)
+| [Area](http://demos.telerik.com/kendo-ui/area-charts/index)<br />[Bar](http://demos.telerik.com/kendo-ui/bar-charts/index)<br />[Box Plot](http://demos.telerik.com/kendo-ui/box-plot-charts/index)<br />[Bubble](http://demos.telerik.com/kendo-ui/bubble-charts/index)<br />[Bullet](http://demos.telerik.com/kendo-ui/bullet-charts/index)<br />[Donut](http://demos.telerik.com/kendo-ui/donut-charts/index)<br />[Funnel](http://demos.telerik.com/kendo-ui/funnel-charts/index)<br />[Line](http://demos.telerik.com/kendo-ui/line-charts/index)<br />[Pie](http://demos.telerik.com/kendo-ui/pie-charts/index)<br />[Polar](http://demos.telerik.com/kendo-ui/polar-charts/index)<br />[Radar](http://demos.telerik.com/kendo-ui/radar-charts/index)<br />[Range Bar](http://demos.telerik.com/kendo-ui/range-bar-charts/index)<br />[Scatter](http://demos.telerik.com/kendo-ui/scatter-charts/index)<br />[Waterfall](http://demos.telerik.com/kendo-ui/waterfall-charts/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-charts`](https://www.npmjs.com/package/kendo-ui-react-jquery-charts) | [source](packages/charts)
 | [Sparklines](http://demos.telerik.com/kendo-ui/sparklines/index)      | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-sparklines`](https://www.npmjs.com/package/kendo-ui-react-jquery-sparklines) | [source](packages/sparklines)
 | [Stock Charts](http://demos.telerik.com/kendo-ui/financial/index)     | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-stockchart`](https://www.npmjs.com/package/kendo-ui-react-jquery-stockchart) | [source](packages/stockChart)
 | [TreeMap](http://demos.telerik.com/kendo-ui/treemap/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-treemap`](https://www.npmjs.com/package/kendo-ui-react-jquery-treemap) | [source](packages/treeMap)
 | **Gauges**                |
-| [LinearGauge](http://demos.telerik.com/kendo-ui/linear-gauge/index)   | :x: | :white_check_mark: | |
-| [RadialGauge](http://demos.telerik.com/kendo-ui/radial-gauge/index)   | :x: | :white_check_mark: | |
+| [LinearGauge](http://demos.telerik.com/kendo-ui/linear-gauge/index)<br />[RadialGauge](http://demos.telerik.com/kendo-ui/radial-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-gauges`](https://www.npmjs.com/package/kendo-ui-react-jquery-gauges) | [source](packages/gauges)
 | **Barcodes**              |
 | [Barcode](http://demos.telerik.com/kendo-ui/barcode/index)            | :x: | :white_check_mark: | |
 | [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | |

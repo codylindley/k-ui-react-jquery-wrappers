@@ -50,7 +50,6 @@ npm i kendo-ui-react-jquery-treelist
 import React from 'react';
 import ReactDOM from 'react-dom';
 import KendoTreeList from 'kendo-ui-react-jquery-treelist';
-import Kendo from 'kendo/js/kendo.core';
 
 //Don't forget CSS, webpack used to include CSS
 import 'kendo/css/web/kendo.common.min.css';

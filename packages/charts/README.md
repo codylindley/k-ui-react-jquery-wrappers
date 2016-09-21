@@ -46,7 +46,7 @@ npm i kendo-ui-react-jquery-charts
 
 ## Usage Example
 
-Note that the example below shows a scatter chart but chart can produce the following data visualizations aswell:
+Note that the example below shows a scatter chart but chart can produce the following data visualizations as well:
 
 [Area](http://demos.telerik.com/kendo-ui/area-charts/index)<br />[Bar](http://demos.telerik.com/kendo-ui/bar-charts/index)<br />[Box Plot](http://demos.telerik.com/kendo-ui/box-plot-charts/index)<br />[Bubble](http://demos.telerik.com/kendo-ui/bubble-charts/index)<br />[Bullet](http://demos.telerik.com/kendo-ui/bullet-charts/index)<br />[Donut](http://demos.telerik.com/kendo-ui/donut-charts/index)<br />[Funnel](http://demos.telerik.com/kendo-ui/funnel-charts/index)<br />[Line](http://demos.telerik.com/kendo-ui/line-charts/index)<br />[Pie](http://demos.telerik.com/kendo-ui/pie-charts/index)<br />[Polar](http://demos.telerik.com/kendo-ui/polar-charts/index)<br />[Radar](http://demos.telerik.com/kendo-ui/radar-charts/index)<br />[Range Bar](http://demos.telerik.com/kendo-ui/range-bar-charts/index)<br />[Scatter](http://demos.telerik.com/kendo-ui/scatter-charts/index)<br />[Waterfall](http://demos.telerik.com/kendo-ui/waterfall-charts/index)
 

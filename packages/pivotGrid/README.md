@@ -51,7 +51,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
 
-
 //Don't forget CSS, webpack used to include CSS
 import 'kendo/css/web/kendo.common.min.css';
 import 'kendo/css/web/kendo.default.min.css';
