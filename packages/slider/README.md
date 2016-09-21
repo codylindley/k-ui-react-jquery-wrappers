@@ -5,7 +5,7 @@ The Kendo UI for jQuery Slider widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-slider
+npm i kendo-ui-react-jquery-slider
 ```
 
 ## Usage Example

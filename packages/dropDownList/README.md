@@ -5,7 +5,7 @@ The Kendo UI for jQuery DropDownList widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-dropdownlist
+npm i kendo-ui-react-jquery-dropdownlist
 ```
 
 ## Usage Example

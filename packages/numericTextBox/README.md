@@ -5,7 +5,7 @@ The Kendo UI for jQuery NumericTextBox widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-numerictextbox
+npm i kendo-ui-react-jquery-numerictextbox
 ```
 
 ## Usage Example

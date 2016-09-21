@@ -5,7 +5,7 @@ The Kendo UI for jQuery ComboBox widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-combobox
+npm i kendo-ui-react-jquery-combobox
 ```
 
 ## Usage Example

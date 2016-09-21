@@ -5,7 +5,7 @@ The Kendo UI for jQuery AutoComplete widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-autocomplete
+npm i kendo-ui-react-jquery-autocomplete
 ```
 
 ## Usage Example

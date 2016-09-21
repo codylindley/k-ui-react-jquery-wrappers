@@ -5,7 +5,7 @@ The Kendo UI for jQuery TimePicker widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-timepicker
+npm i kendo-ui-react-jquery-timepicker
 ```
 
 ## Usage Example

@@ -5,7 +5,7 @@ The Kendo UI for jQuery PanelBar widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-panelbar
+npm i kendo-ui-react-jquery-panelbar
 ```
 
 ## Usage Example

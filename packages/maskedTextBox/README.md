@@ -5,7 +5,7 @@ The Kendo UI for jQuery MaskedTextBox widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-maskedtextbox
+npm i kendo-ui-react-jquery-maskedtextbox
 ```
 
 ## Usage Example

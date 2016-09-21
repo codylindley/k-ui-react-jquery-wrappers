@@ -5,7 +5,7 @@ The Kendo UI for jQuery MultiSelect widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-multiselect
+npm i kendo-ui-react-jquery-multiselect
 ```
 
 ## Usage Example

@@ -5,7 +5,7 @@ The Kendo UI for jQuery Button widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-button
+npm i kendo-ui-react-jquery-button
 ```
 
 ## Usage Example

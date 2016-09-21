@@ -5,7 +5,7 @@ The Kendo UI for jQuery Validator widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-validator
+npm i kendo-ui-react-jquery-validator
 ```
 
 ## Usage Example

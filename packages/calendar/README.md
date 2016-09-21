@@ -5,7 +5,7 @@ The Kendo UI for jQuery Calendar widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-calendar
+npm i kendo-ui-react-jquery-calendar
 ```
 
 ## Usage Example

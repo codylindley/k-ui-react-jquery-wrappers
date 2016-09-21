@@ -5,7 +5,7 @@ The Kendo UI for jQuery Menu widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-menu
+npm i kendo-ui-react-jquery-menu
 ```
 
 ## Usage Example

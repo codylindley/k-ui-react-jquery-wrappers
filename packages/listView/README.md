@@ -5,7 +5,7 @@ The Kendo UI for jQuery ListView widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-listview
+npm i kendo-ui-react-jquery-listview
 ```
 
 ## Usage Example

@@ -2,7 +2,7 @@
 
 The Kendo UI for jQuery PivotGrid widget wrapped as a React component.
 
-***WARNING:*** Must install professional version of Kendo UI using credentials.
+***WARNING:*** Must npm install professional version of Kendo UI using credentials.
 
 You'll need to setup a `.netrc` file on your local system. This file contains the login (username & password) of the account on telerik.com in which you purchased [Kendo UI professional](http://www.telerik.com/kendo-ui) or [DevCraft](http://www.telerik.com/devcraft).
 
@@ -41,7 +41,7 @@ machine bower.telerik.com
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-pivotgrid
+npm i kendo-ui-react-jquery-pivotgrid
 ```
 
 ## Usage Example

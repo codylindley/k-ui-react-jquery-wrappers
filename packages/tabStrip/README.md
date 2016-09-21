@@ -5,7 +5,7 @@ The Kendo UI for jQuery TabStrip widget wrapped as a React component.
 ## Install
 
 ```bash
-npm i -S kendo-ui-react-jquery-tabstrip
+npm i kendo-ui-react-jquery-tabstrip
 ```
 
 ## Usage Example
