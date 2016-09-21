@@ -31,6 +31,7 @@ import KendoButton from 'kendo-ui-react-jquery-button';
 import KendoMenu from 'kendo-ui-react-jquery-menu';
 import KendoPanelBar from 'kendo-ui-react-jquery-panelbar';
 import KendoTabStrip from 'kendo-ui-react-jquery-tabstrip';
+import KendoToolBar from 'kendo-ui-react-jquery-toolbar';
 
 //CSS
 //kendo-ui-core CSS files
@@ -668,6 +669,35 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoToolBar</h2>
+					<KendoToolBar options={{
+						items: [
+							{
+								type: "button",
+								text: "Button",
+								icon: "note",
+								showIcon: "toolbar"
+							},
+							{
+								type: "button",
+								togglable: true,
+								text: "Toggle Button",
+								icon: "tick"
+							},
+							{
+								type: "splitButton",
+								text: "Split Button",
+								menuButtons: [
+									{ id: "option1", text: "Option 1" },
+									{ id: "option2", text: "Option 2" },
+									{ id: "option3", text: "Option 3" }
+								]
+							}
+						]
+					}}>
+					</KendoToolBar>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoTabStrip</h2>
 					<KendoTabStrip>

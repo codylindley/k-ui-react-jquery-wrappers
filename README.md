@@ -85,7 +85,7 @@ For example:
 | [Menu](http://demos.telerik.com/kendo-ui/menu/index)                  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-menu`](https://www.npmjs.com/package/kendo-ui-react-jquery-menu) | [source](packages/menu)
 | [PanelBar](http://demos.telerik.com/kendo-ui/panelbar/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-panelbar`](https://www.npmjs.com/package/kendo-ui-react-jquery-panelbar) | [source](packages/panelBar)
 | [TabStrip](http://demos.telerik.com/kendo-ui/tabstrip/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-tabstrip`](https://www.npmjs.com/package/kendo-ui-react-jquery-tabstrip) | [source](packages/tabStrip)
-| [ToolBar](http://demos.telerik.com/kendo-ui/toolbar/index)            | :white_check_mark: | :white_check_mark: | |
+| [ToolBar](http://demos.telerik.com/kendo-ui/toolbar/index)            | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-toolbar`](https://www.npmjs.com/package/kendo-ui-react-jquery-toolbar) | [source](packages/toolBar)
 | [TreeView](http://demos.telerik.com/kendo-ui/treeview/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treeview`](https://www.npmjs.com/package/kendo-ui-react-jquery-treeview) | [source](packages/treeView)
 | **Interactivity and UX**  |
 | [Drag-and-Drop](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | |
