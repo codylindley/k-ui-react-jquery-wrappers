@@ -21,23 +21,16 @@ import 'kendo-ui-core/css/web/kendo.default.min.css';
 
 var App = React.createClass({
   render: function() {
-	  return (<KendoTabStrip methods={{expand:['li:first']}}>
+	  return (<KendoTabStrip>
+					<KendoTabStrip>
 						<ul>
-							<li>
-								Item 1
-									<ul>
-										<li>Sub Item 1</li>
-										<li>Sub Item 2</li>
-									</ul>
-							</li>
-							<li>Item 2
-								<ul>
-									<li>Sub Item 1</li>
-									<li>Sub Item 2</li>
-								</ul>
-							</li>
+							<li className="k-state-active">First tab</li>
+							<li>Second tab</li>
 						</ul>
-	  			</KendoTabStrip>);
+						<div>First tab content</div>
+						<div>Second tab content</div>
+					</KendoTabStrip>
+	  		</KendoTabStrip>);
 	}
 });
 
