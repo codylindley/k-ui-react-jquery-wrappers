@@ -94,8 +94,8 @@ var App = React.createClass({
                         field: "Close"
                     },
                     select: {
-                        from: "2009/02/05",
-                        to: "2011/10/07"
+                        from: "2000/02/05",
+                        to: "2000/10/07"
                     },
                     categoryAxis: {
                         labels: {
