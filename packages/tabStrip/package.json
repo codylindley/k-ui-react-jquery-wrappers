@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-tabstrip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Kendo UI for jQuery TabStrip widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-datetimepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Kendo UI for jQuery DateTimePicker widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {

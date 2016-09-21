@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-spreadsheet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The Kendo UI for jQuery Spreadsheet widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
