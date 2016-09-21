@@ -58,7 +58,7 @@ For example:
 | [Range Bar Charts](http://demos.telerik.com/kendo-ui/range-bar-charts/index) | :x: | :white_check_mark: | |
 | [Scatter Charts](http://demos.telerik.com/kendo-ui/scatter-charts/index) | :x: | :white_check_mark: | |
 | [Sparklines](http://demos.telerik.com/kendo-ui/sparklines/index)      | :x: | :white_check_mark: | |
-| [Stock Charts](http://demos.telerik.com/kendo-ui/financial/index)     | :x: | :white_check_mark: | |
+| [Stock Charts](http://demos.telerik.com/kendo-ui/financial/index)     | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-stockchart`](https://www.npmjs.com/package/kendo-ui-react-jquery-stockchart) | [source](packages/stockChart)
 | [TreeMap](http://demos.telerik.com/kendo-ui/treemap/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-treemap`](https://www.npmjs.com/package/kendo-ui-react-jquery-treemap) | [source](packages/treeMap)
 | [Waterfall Charts](http://demos.telerik.com/kendo-ui/waterfall-charts/index) | :x: | :white_check_mark: | |
 | **Gauges**                |
