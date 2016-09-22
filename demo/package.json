@@ -42,6 +42,7 @@
     "kendo-ui-react-jquery-pivotgrid": "^1.0.4",
     "kendo-ui-react-jquery-qrcode": "^1.0.1",
     "kendo-ui-react-jquery-radialgauge": "^1.0.1",
+    "kendo-ui-react-jquery-scheduler": "^1.0.1",
     "kendo-ui-react-jquery-slider": "^1.0.1",
     "kendo-ui-react-jquery-sparklines": "^1.0.1",
     "kendo-ui-react-jquery-stockchart": "^1.0.3",

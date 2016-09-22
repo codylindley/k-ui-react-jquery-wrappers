@@ -38,7 +38,7 @@ import KendoLinearGauge from 'kendo-ui-react-jquery-lineargauge';
 import KendoRadialGauge from 'kendo-ui-react-jquery-radialgauge';
 import KendoBarCode from 'kendo-ui-react-jquery-barcode';
 import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
-
+import KendoScheduler from 'kendo-ui-react-jquery-scheduler';
 
 //CSS
 //kendo-ui-core CSS files
@@ -680,6 +680,28 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoScheduler</h2>
+					<KendoScheduler options={{
+						date: new Date("2013/6/6"), // The current date of the scheduler
+						dataSource: [ // The kendo.data.SchedulerDataSource configuration
+							// First scheduler event
+							{
+							id: 1, // Unique identifier. Needed for editing.
+							start: new Date("2013/6/6 08:00 AM"), // Start of the event
+							end: new Date("2013/6/6 09:00 AM"), // End of the event
+							title: "Breakfast" // Title of the event
+							},
+							// Second scheduler event
+							{
+							id: 2,
+							start: new Date("2013/6/6 10:15 AM"),
+							end: new Date("2013/6/6 12:30 PM"),
+							title: "Job Interview"
+							}
+						]
+					}}></KendoScheduler>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoMap</h2>
 				</div>
