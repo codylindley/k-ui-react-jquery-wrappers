@@ -682,23 +682,6 @@ var App = React.createClass({
 			<div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoMap</h2>
-					<KendoMap options={{
-						center: [30.268107, -97.744821],
-						zoom: 3,
-						layers: [{
-							type: "tile",
-							urlTemplate: "http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png",
-							subdomains: ["a", "b", "c"],
-							attribution: "&copy; <a href='http://osm.org/copyright'>OpenStreetMap contributors</a>"
-						}],
-						markers: [{
-							location: [30.268107, -97.744821],
-							shape: "pinTarget",
-							tooltip: {
-								content: "Austin, TX"
-							}
-						}]
-					}}></KendoMap>
 				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoDiagram</h2>
