@@ -1,7 +1,7 @@
 {
   "name": "kendo-ui-react-jquery-radialgauge",
-  "version": "1.0.0",
-  "description": "The Kendo UI for jQuery Charts widget wrapped as a React component.",
+  "version": "1.0.1",
+  "description": "The Kendo UI for jQuery RadialGauge widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
