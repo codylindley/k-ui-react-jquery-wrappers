@@ -58,8 +58,25 @@ import 'kendo/css/web/kendo.default.min.css';
 var App = React.createClass({
   render: function() {
 	  return (<KendoRadialGauge options={{
-
-					}}></KendoRadialGauge>
+		  			    pointer: [{
+                            value: 10,
+                            color: "#c20000",
+                            cap: { size: 0.15 }
+                        }, {
+                            value: 70,
+                            color: "#ff7a00",
+                            cap: { size: 0.1 }
+                        }, {
+                            value: 140,
+                            color: "#ffc700"
+                        }],
+                        scale: {
+                            minorUnit: 5,
+                            startAngle: -30,
+                            endAngle: 210,
+                            max: 180
+                        }
+				}}></KendoRadialGauge>
 	  );
 	}
 });
