@@ -38,6 +38,8 @@ import KendoSparklines from 'kendo-ui-react-jquery-sparklines';
 import KendoCharts from 'kendo-ui-react-jquery-charts';
 import KendoLinearGauge from 'kendo-ui-react-jquery-lineargauge';
 import KendoRadialGauge from 'kendo-ui-react-jquery-radialgauge';
+import KendoBarCode from 'kendo-ui-react-jquery-barcode';
+import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
 
 //CSS
 //kendo-ui-core CSS files
@@ -679,6 +681,27 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoQRCode</h2>
+					<KendoQRCode options={{
+						value: "//github.com/codylindley/k-ui-react-jquery-wrappers",
+                        errorCorrection: "M",
+                        size: 120,
+                        border: {
+                            color: "#000000",
+                            width: 5
+                        }
+					}}></KendoQRCode>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoBarCode</h2>
+					<KendoBarCode options={{
+                    value: "2346722",
+                    type: "ean8",
+                    width: 280,
+                    height: 100
+					}}></KendoBarCode>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoRadialGauge</h2>
 					<KendoRadialGauge options={{

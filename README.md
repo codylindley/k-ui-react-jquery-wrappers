@@ -51,8 +51,8 @@ For example:
 | [LinearGauge](http://demos.telerik.com/kendo-ui/linear-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-lineargauge`](https://www.npmjs.com/package/kendo-ui-react-jquery-lineargauge) | [source](packages/linearGauge)
 | [RadialGauge](http://demos.telerik.com/kendo-ui/radial-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-radialgauge`](https://www.npmjs.com/package/kendo-ui-react-jquery-radialgauge) | [source](packages/radialGauge)
 | **Barcodes**              |
-| [Barcode](http://demos.telerik.com/kendo-ui/barcode/index)            | :x: | :white_check_mark: | |
-| [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | |
+| [Barcode](http://demos.telerik.com/kendo-ui/barcode/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-barcode`](https://www.npmjs.com/package/kendo-ui-react-jquery-barcode) | [source](packages/barCode)
+| [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-qrcode`](https://www.npmjs.com/package/kendo-ui-react-jquery-qrcode) | [source](packages/qrCode)
 | **Diagram and Maps**      |
 | [Diagram](http://demos.telerik.com/kendo-ui/diagram/index)            | :x: | :white_check_mark: | |
 | [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | |
