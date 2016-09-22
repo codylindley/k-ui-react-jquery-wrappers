@@ -19,7 +19,7 @@ For example:
 
 ## Available Wrappers on npm
 
-| Feature | [Core](http://www.telerik.com/kendo-ui/open-source-core) (free) | [Professional](http://www.telerik.com/kendo-ui) (Paid) | wrapper on npm | github |
+| Feature | [Core](http://www.telerik.com/kendo-ui/open-source-core) (free) | [Professional](http://www.telerik.com/kendo-ui) ($) | wrapper on npm | github |
 | ------- | :----: | :--------: | :------------------: | ------------------ |
 | **Data Management**       |
 | [Grid](http://demos.telerik.com/kendo-ui/grid/index)                  | :x:  | :white_check_mark: |  [`npm install kendo-ui-react-jquery-grid`](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/grid)
