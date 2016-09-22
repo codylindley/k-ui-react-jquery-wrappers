@@ -31,6 +31,7 @@
     "kendo-ui-react-jquery-datepicker": "^1.0.4",
     "kendo-ui-react-jquery-datetimepicker": "^1.0.1",
     "kendo-ui-react-jquery-dropdownlist": "^1.0.26",
+    "kendo-ui-react-jquery-gantt": "^1.0.0",
     "kendo-ui-react-jquery-grid": "^1.0.8",
     "kendo-ui-react-jquery-lineargauge": "^1.0.1",
     "kendo-ui-react-jquery-listview": "^1.0.4",

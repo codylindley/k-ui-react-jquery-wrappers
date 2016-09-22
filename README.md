@@ -55,10 +55,10 @@ For example:
 | [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-qrcode`](https://www.npmjs.com/package/kendo-ui-react-jquery-qrcode) | [source](packages/qrCode)
 | **Diagram and Maps**      |
 | [Diagram](http://demos.telerik.com/kendo-ui/diagram/index)            | :x: | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2202](https://github.com/telerik/kendo-ui-core/issues/2202) | 
-| [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2203](https://github.com/telerik/kendo-ui-core/issues/2203)
+| [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2203](https://github.com/telerik/kendo-ui-core/issues/2203) | 
 | **Scheduling**            |
 | [Calendar](http://demos.telerik.com/kendo-ui/calendar/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-calendar`](https://www.npmjs.com/package/kendo-ui-react-jquery-calendar) | [source](packages/calendar)
-| [Gantt](http://demos.telerik.com/kendo-ui/gantt/index)                | :x:  | :white_check_mark: | |
+| [Gantt](http://demos.telerik.com/kendo-ui/gantt/index)                | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-gantt`](https://www.npmjs.com/package/kendo-ui-react-jquery-gantt) | [source](packages/gantt)
 | [Scheduler](http://demos.telerik.com/kendo-ui/scheduler/index)        | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-scheduler`](https://www.npmjs.com/package/kendo-ui-react-jquery-scheduler) | [source](packages/scheduler)
 | **Layout**                |
 | [Notification](http://demos.telerik.com/kendo-ui/notification/index)  | :white_check_mark: | :white_check_mark: | |
