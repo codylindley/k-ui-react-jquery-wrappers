@@ -268,9 +268,8 @@ Each is demonstrated below using a `<KendoDropDownList>` KUI React wrapper.
 
 ## KUI API
 
-* Charts demos: [http://demos.telerik.com/kendo-ui/charts/index](http://demos.telerik.com/kendo-ui/charts/index)
-* Charts docs: [http://docs.telerik.com/kendo-ui/controls/charts/charts/overview](http://docs.telerik.com/kendo-ui/controls/charts/charts/overview)
-* Charts API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/charts](http://docs.telerik.com/kendo-ui/api/javascript/ui/charts)
+* Charts docs: [http://http://docs.telerik.com/kendo-ui/controls/charts/overview](http://http://docs.telerik.com/kendo-ui/controls/charts/overview)
+
 
 ## License
 

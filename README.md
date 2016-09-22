@@ -48,7 +48,8 @@ For example:
 | [Stock Charts](http://demos.telerik.com/kendo-ui/financial/index)     | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-stockchart`](https://www.npmjs.com/package/kendo-ui-react-jquery-stockchart) | [source](packages/stockChart)
 | [TreeMap](http://demos.telerik.com/kendo-ui/treemap/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-treemap`](https://www.npmjs.com/package/kendo-ui-react-jquery-treemap) | [source](packages/treeMap)
 | **Gauges**                |
-| [LinearGauge](http://demos.telerik.com/kendo-ui/linear-gauge/index)<br />[RadialGauge](http://demos.telerik.com/kendo-ui/radial-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-gauges`](https://www.npmjs.com/package/kendo-ui-react-jquery-gauges) | [source](packages/gauges)
+| [LinearGauge](http://demos.telerik.com/kendo-ui/linear-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-lineargauge`](https://www.npmjs.com/package/kendo-ui-react-jquery-lineargauge) | [source](packages/linearGauge)
+| [RadialGauge](http://demos.telerik.com/kendo-ui/radial-gauge/index) | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-radialgauge`](https://www.npmjs.com/package/kendo-ui-react-jquery-radialgauge) | [source](packages/radialGauge)
 | **Barcodes**              |
 | [Barcode](http://demos.telerik.com/kendo-ui/barcode/index)            | :x: | :white_check_mark: | |
 | [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | |

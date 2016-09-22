@@ -55,7 +55,6 @@ import KendoGrid from 'kendo-ui-react-jquery-grid';
 import 'kendo/css/web/kendo.common.min.css';
 import 'kendo/css/web/kendo.default.min.css';
 
-
 var App = React.createClass({
   render: function() {
 	  return (
