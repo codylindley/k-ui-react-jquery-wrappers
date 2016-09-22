@@ -11,14 +11,12 @@ import KendoCalendar from 'kendo-ui-react-jquery-calendar';
 import KendoDatePicker from 'kendo-ui-react-jquery-datepicker';
 import KendoListView from 'kendo-ui-react-jquery-listview';
 import KendoGrid from 'kendo-ui-react-jquery-grid';
-import KendoSpreadsheet from 'kendo-ui-react-jquery-spreadsheet';
 import Kendo from 'kendo/js/kendo.core';
 import KendoTreeList from 'kendo-ui-react-jquery-treelist';
 import KendoPivotGrid from 'kendo-ui-react-jquery-pivotgrid';
 import KendoAutoComplete from 'kendo-ui-react-jquery-autocomplete';
 import KendoComboBox from 'kendo-ui-react-jquery-combobox';
 import KendoDateTimePicker from 'kendo-ui-react-jquery-datetimepicker';
-import KendoEditor from 'kendo-ui-react-jquery-editor';
 import KendoMaskedTextBox from 'kendo-ui-react-jquery-maskedtextbox';
 import KendoMultiSelect from 'kendo-ui-react-jquery-multiselect';
 import KendoNumericTextBox from 'kendo-ui-react-jquery-numerictextbox';
@@ -40,6 +38,7 @@ import KendoLinearGauge from 'kendo-ui-react-jquery-lineargauge';
 import KendoRadialGauge from 'kendo-ui-react-jquery-radialgauge';
 import KendoBarCode from 'kendo-ui-react-jquery-barcode';
 import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
+
 
 //CSS
 //kendo-ui-core CSS files
@@ -681,6 +680,29 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoMap</h2>
+					<KendoMap options={{
+						center: [30.268107, -97.744821],
+						zoom: 3,
+						layers: [{
+							type: "tile",
+							urlTemplate: "http://#= subdomain #.tile.openstreetmap.org/#= zoom #/#= x #/#= y #.png",
+							subdomains: ["a", "b", "c"],
+							attribution: "&copy; <a href='http://osm.org/copyright'>OpenStreetMap contributors</a>"
+						}],
+						markers: [{
+							location: [30.268107, -97.744821],
+							shape: "pinTarget",
+							tooltip: {
+								content: "Austin, TX"
+							}
+						}]
+					}}></KendoMap>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDiagram</h2>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoQRCode</h2>
 					<KendoQRCode options={{
