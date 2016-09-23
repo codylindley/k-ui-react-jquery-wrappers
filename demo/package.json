@@ -38,6 +38,7 @@
     "kendo-ui-react-jquery-maskedtextbox": "^1.0.3",
     "kendo-ui-react-jquery-menu": "^1.0.2",
     "kendo-ui-react-jquery-multiselect": "^1.0.2",
+    "kendo-ui-react-jquery-notification": "^1.0.1",
     "kendo-ui-react-jquery-numerictextbox": "^1.0.1",
     "kendo-ui-react-jquery-panelbar": "^1.0.1",
     "kendo-ui-react-jquery-pivotgrid": "^1.0.4",

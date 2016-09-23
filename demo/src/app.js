@@ -40,6 +40,7 @@ import KendoBarCode from 'kendo-ui-react-jquery-barcode';
 import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
 import KendoScheduler from 'kendo-ui-react-jquery-scheduler';
 import KendoGantt from 'kendo-ui-react-jquery-gantt';
+import KendoNotification from 'kendo-ui-react-jquery-notification';
 
 //CSS
 //kendo-ui-core CSS files
@@ -681,6 +682,25 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoNotification</h2>
+					<KendoNotification options={{
+						position: {
+						// notification popup will scroll together with the other content
+						pinned: false,
+						// the first notification popup will appear 30px from the viewport's top and right edge
+						top: 30,
+						right: 30
+						},
+						// new notifications will appear below old ones
+						stacking: "down",
+						// set appropriate size
+						width: 300,
+						height: 50,
+						 // hide automatically after 7 seconds
+						autoHideAfter: 0
+					}} methods={{show:['I am a Notification']}} />
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoGantt</h2>
 					<KendoGantt options={{
