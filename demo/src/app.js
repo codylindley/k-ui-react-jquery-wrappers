@@ -41,6 +41,10 @@ import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
 import KendoScheduler from 'kendo-ui-react-jquery-scheduler';
 import KendoGantt from 'kendo-ui-react-jquery-gantt';
 import KendoNotification from 'kendo-ui-react-jquery-notification';
+import KendoSplitter from 'kendo-ui-react-jquery-splitter';
+import KendoTooltip from 'kendo-ui-react-jquery-tooltip';
+import KendoResponsivePanel from 'kendo-ui-react-jquery-responsivepanel';
+import KendoWindow from 'kendo-ui-react-jquery-window';
 
 //CSS
 //kendo-ui-core CSS files
@@ -682,6 +686,38 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoWindow</h2>
+					<KendoWindow>
+							Window content
+					</KendoWindow>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoResponsivePanel</h2>
+					<KendoResponsivePanel options={{autoClose: false}}>
+							<a href="#">Home</a>
+							<a href="#">Products</a>
+					</KendoResponsivePanel>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoTooltip</h2>
+					<KendoTooltip options={{
+						content: "Tooltip content"
+					}}>
+						Mouse over me to see tooltip!
+					</KendoTooltip>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoSplitter</h2>
+					<KendoSplitter options={{
+						orientation: "vertical"
+					}}>
+						<div>
+						<div>Pane A</div>
+						<div>Pane B</div>
+						</div>
+					</KendoSplitter>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoNotification</h2>
 					<KendoNotification options={{

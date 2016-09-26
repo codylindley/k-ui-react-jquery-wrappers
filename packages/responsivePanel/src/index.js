@@ -1,11 +1,11 @@
 // import/require dependencies
-import kuiNotification from 'kendo-ui-core/js/kendo.notification.js';
+import kuiResponsivePanel from 'kendo-ui-core/js/kendo.responsivepanel.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import deepDiff from 'deep-diff';
 
 // create a React component, that is a wrapper for a Kendo UI widget
-const KendoNotification = React.createClass({
+const KendoResponsivePanel = React.createClass({
 
 	//component is in the DOM, so do stuff to it in this callback
 	componentDidMount: function() {
@@ -19,7 +19,7 @@ const KendoNotification = React.createClass({
 
 		//instantiate and save reference to the Kendo UI widget on elementNode
 		//note I am not using jQuery plugin to instantiate, don't want to wait for namespace on $.fn
-		this.widgetInstance = new kuiNotification.ui.Notification(elementNode,this.props.options);
+		this.widgetInstance = new kuiResponsivePanel.ui.ResponsivePanel(elementNode,this.props.options);
 
 		//if props are avaliable for events, triggers, unbind events, or methods make it happen now
 		this.props.events ? this.bindEventsToKendoWidget(this.props.events) : null;
@@ -92,9 +92,9 @@ const KendoNotification = React.createClass({
 
 	//use the passed in React nodes or a plain <div> if no React child nodes are defined
 	render: function() {
-		return this.props.children ? this.props.children : <span />;
+		return this.props.children ? <div>{this.props.children}</div> : <div />;
 	}
 });
 
 //export the wrapped component
-export default KendoNotification;
+export default KendoResponsivePanel;
