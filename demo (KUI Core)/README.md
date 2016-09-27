@@ -1,4 +1,4 @@
-# Demo
+# Run Demo
 
 Open this directory in a terminal and run the following npm script commands.
 
