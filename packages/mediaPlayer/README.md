@@ -58,14 +58,14 @@ import 'kendo/css/web/kendo.default.min.css';
 var App = React.createClass({
   render: function() {
 	  return (
-		  	<KendoMediaPlayer options={{
+			<KendoMediaPlayer options={{
 				autoPlay: false,
-                navigatable: true,
-                media: {
-                    title: "Recap of Progress Ringing The Bell at Nasdaq (2016)",
-                    source: "https://www.youtube.com/watch?v=tc3xhD24iTU"
-                }
-			}}></KendoMediaPlayer>
+				navigatable: true,
+				media: {
+					title: "Recap of Progress Ringing The Bell at Nasdaq (2016)",
+					source: "https://www.youtube.com/watch?v=tc3xhD24iTU"
+				}
+			}} ><div style={{width:640, height: 360}}></div></KendoMediaPlayer>
 	  );
 	}
 });
