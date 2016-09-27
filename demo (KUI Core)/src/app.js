@@ -30,6 +30,7 @@ import KendoTooltip from 'kendo-ui-react-jquery-tooltip';
 import KendoResponsivePanel from 'kendo-ui-react-jquery-responsivepanel';
 import KendoWindow from 'kendo-ui-react-jquery-window';
 import KendoDialog from 'kendo-ui-react-jquery-dialog';
+import KendoProgressBar from 'kendo-ui-react-jquery-progressbar';
 
 //CSS
 //kendo-ui-core CSS files
@@ -124,8 +125,17 @@ var App = React.createClass({
 		return (
 			<div>
 				<div style={{ marginBottom: 150 }}>
+					<h2>KendoProgressBar</h2>
+					<KendoProgressBar options={{
+						type: 'chunk',
+						chunkCount: 10,
+						min: 0,
+						max: 10,
+						value: 2
+					}} />
+				</div>
+				<div style={{ marginBottom: 150 }}>
 					<h2>KendoDialog</h2>
-					
 					<KendoDialog ref={(dialog) => {dialog ? this.refDialog = dialog.widgetInstance : null;}} options={{ visible: false}}>
 							Dialog content
 					</KendoDialog>
