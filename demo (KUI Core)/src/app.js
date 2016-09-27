@@ -29,6 +29,7 @@ import KendoSplitter from 'kendo-ui-react-jquery-splitter';
 import KendoTooltip from 'kendo-ui-react-jquery-tooltip';
 import KendoResponsivePanel from 'kendo-ui-react-jquery-responsivepanel';
 import KendoWindow from 'kendo-ui-react-jquery-window';
+import KendoDialog from 'kendo-ui-react-jquery-dialog';
 
 //CSS
 //kendo-ui-core CSS files
@@ -122,6 +123,14 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDialog</h2>
+					
+					<KendoDialog ref={(dialog) => {dialog ? this.refDialog = dialog.widgetInstance : null;}} options={{ visible: false}}>
+							Dialog content
+					</KendoDialog>
+					<button onClick={()=>this.refDialog.open()}>open dialog</button>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoWindow</h2>
 					<KendoWindow>
