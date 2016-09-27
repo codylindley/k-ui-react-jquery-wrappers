@@ -61,11 +61,14 @@ For example:
 | [Gantt](http://demos.telerik.com/kendo-ui/gantt/index)                | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-gantt`](https://www.npmjs.com/package/kendo-ui-react-jquery-gantt) | [source](packages/gantt)
 | [Scheduler](http://demos.telerik.com/kendo-ui/scheduler/index)        | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-scheduler`](https://www.npmjs.com/package/kendo-ui-react-jquery-scheduler) | [source](packages/scheduler)
 | **Layout**                |
-| [Notification](http://demos.telerik.com/kendo-ui/notification/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-notification`](https://www.npmjs.com/package/kendo-ui-react-jquery-notification) | [source](packages/scheduler)
+| [Dialog](http://demos.telerik.com/kendo-ui/dialog/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dialog`](https://www.npmjs.com/package/kendo-ui-react-jquery-dialog) | [source](packages/dialog)
+| [Notification](http://demos.telerik.com/kendo-ui/notification/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-notification`](https://www.npmjs.com/package/kendo-ui-react-jquery-notification) | [source](packages/notification)
 | [Responsive Panel](http://demos.telerik.com/kendo-ui/responsive-panel/index)| :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-responsivepanel`](https://www.npmjs.com/package/kendo-ui-react-jquery-responsivepanel) | [source](packages/responsivePanel)
 | [Splitter](http://demos.telerik.com/kendo-ui/splitter/index)          | :white_check_mark:| :white_check_mark: | [`npm install kendo-ui-react-jquery-splitter`](https://www.npmjs.com/package/kendo-ui-react-jquery-splitter) | [source](packages/splitter)
 | [Tooltip](http://demos.telerik.com/kendo-ui/tooltip/index)            | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-tooltip`](https://www.npmjs.com/package/kendo-ui-react-jquery-tooltip) | [source](packages/tooltip)
 | [Window](http://demos.telerik.com/kendo-ui/window/index)              | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-window`](https://www.npmjs.com/package/kendo-ui-react-jquery-window) | [source](packages/window)
+| **Media**            |
+| [MediaPlayer](http://demos.telerik.com/kendo-ui/mediaplayer/index)    | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-mediaplayer`](https://www.npmjs.com/package/kendo-ui-react-jquery-mediaplayer) | [source](packages/mediaPlayer)
 | **Navigation**            |
 | [Button](http://demos.telerik.com/kendo-ui/button/index)              | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-button`](https://www.npmjs.com/package/kendo-ui-react-jquery-button) | [source](packages/button)
 | [Menu](http://demos.telerik.com/kendo-ui/menu/index)                  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-menu`](https://www.npmjs.com/package/kendo-ui-react-jquery-menu) | [source](packages/menu)

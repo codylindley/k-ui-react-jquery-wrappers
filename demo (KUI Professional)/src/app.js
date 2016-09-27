@@ -20,6 +20,7 @@ import KendoBarCode from 'kendo-ui-react-jquery-barcode';
 import KendoQRCode from 'kendo-ui-react-jquery-qrcode';
 import KendoScheduler from 'kendo-ui-react-jquery-scheduler';
 import KendoGantt from 'kendo-ui-react-jquery-gantt';
+import KendoMediaPlayer from 'kendo-ui-react-jquery-mediaplayer';
 
 //Installed so that we can use dataSource stuff
 import Kendo from 'kendo/js/kendo.core';
@@ -607,6 +608,19 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoMediaPlayer</h2>
+					
+					<KendoMediaPlayer options={{
+						autoPlay: false,
+						navigatable: true,
+						media: {
+							title: "Recap of Progress Ringing The Bell at Nasdaq (2016)",
+							source: "https://www.youtube.com/watch?v=tc3xhD24iTU"
+						}
+					}} ><div style={{width:640, height: 360}}></div></KendoMediaPlayer>
+					
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoGantt</h2>
 					<KendoGantt options={{
