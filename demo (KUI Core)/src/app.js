@@ -31,6 +31,7 @@ import KendoResponsivePanel from 'kendo-ui-react-jquery-responsivepanel';
 import KendoWindow from 'kendo-ui-react-jquery-window';
 import KendoDialog from 'kendo-ui-react-jquery-dialog';
 import KendoProgressBar from 'kendo-ui-react-jquery-progressbar';
+import KendoSortable from 'kendo-ui-react-jquery-sortable';
 
 //CSS
 //kendo-ui-core CSS files
@@ -124,6 +125,18 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoSortable</h2>
+					<KendoSortable>
+						Drag and Drop buttons in order you want:
+						<button>1</button>
+						<button>2</button>
+						<button>3</button>
+						<button>4</button>
+						<button>5</button>
+						<button>6</button>
+					</KendoSortable>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoProgressBar</h2>
 					<KendoProgressBar options={{

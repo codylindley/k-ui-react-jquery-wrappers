@@ -1,5 +1,6 @@
 var path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var webpack = require('webpack');
 
 module.exports = {
 	entry: ['./src/app.js'],
@@ -29,6 +30,7 @@ module.exports = {
 	plugins: [
 		new ExtractTextPlugin("style.css", {
 			allChunks: true
-		})
+		}),
+		new webpack.OldWatchingPlugin()
 	]
 };
