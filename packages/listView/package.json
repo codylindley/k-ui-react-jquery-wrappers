@@ -1,6 +1,6 @@
 {
   "name": "kendo-ui-react-jquery-listview",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The Kendo UI for jQuery ListView widget wrapped as a React component.",
   "main": "./dist/index.js",
   "scripts": {
