@@ -99,8 +99,8 @@ Each is demonstrated below using a `<KendoDropDownList>` KUI React wrapper.
 
 ## KUI API
 
-* DropTargetArea demos: [http://demos.telerik.com/kendo-ui/droptargetarea/index](http://demos.telerik.com/kendo-ui/droptargetarea/index)
-* DropTargetArea docs: [http://docs.telerik.com/kendo-ui/controls/interactivity/droptargetarea/overview](http://docs.telerik.com/kendo-ui/controls/interactivity/droptargetarea/overview)
+* DropTargetArea demos: [http://demos.telerik.com/kendo-ui/dragdrop/index](http://demos.telerik.com/kendo-ui/dragdrop/index)
+* DropTargetArea docs: [http://docs.telerik.com/kendo-ui/controls/interactivity/draganddrop/overview#droptargetarea](http://docs.telerik.com/kendo-ui/controls/interactivity/draganddrop/overview#droptargetarea)
 * DropTargetArea API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/droptargetarea](http://docs.telerik.com/kendo-ui/api/javascript/ui/droptargetarea)
 
 ## License

@@ -89,8 +89,8 @@ Each is demonstrated below using a `<KendoDropDownList>` KUI React wrapper.
 
 ## KUI API
 
-* Draggable demos: [http://demos.telerik.com/kendo-ui/draggable/index](http://demos.telerik.com/kendo-ui/draggable/index)
-* Draggable docs: [http://docs.telerik.com/kendo-ui/controls/interactivity/draggable/overview](http://docs.telerik.com/kendo-ui/controls/interactivity/draggable/overview)
+* Draggable demos: [http://demos.telerik.com/kendo-ui/dragdrop/index](http://demos.telerik.com/kendo-ui/dragdrop/index)
+* Draggable docs: [http://docs.telerik.com/kendo-ui/controls/interactivity/draganddrop/overview#draggable](http://docs.telerik.com/kendo-ui/controls/interactivity/draganddrop/overview#draggable)
 * Draggable API: [http://docs.telerik.com/kendo-ui/api/javascript/ui/draggable](http://docs.telerik.com/kendo-ui/api/javascript/ui/draggable)
 
 ## License
