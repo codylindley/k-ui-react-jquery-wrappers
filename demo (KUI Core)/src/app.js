@@ -32,6 +32,9 @@ import KendoWindow from 'kendo-ui-react-jquery-window';
 import KendoDialog from 'kendo-ui-react-jquery-dialog';
 import KendoProgressBar from 'kendo-ui-react-jquery-progressbar';
 import KendoSortable from 'kendo-ui-react-jquery-sortable';
+import KendoDraggable from 'kendo-ui-react-jquery-draggable';
+import KendoDropTarget from 'kendo-ui-react-jquery-droptarget';
+import KendoDropTargetArea from 'kendo-ui-react-jquery-droptargetarea';
 
 //CSS
 //kendo-ui-core CSS files
@@ -125,6 +128,45 @@ var App = React.createClass({
 	render: function () {
 		return (
 			<div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDropTargetArea</h2>
+					<KendoDropTargetArea options={{
+						drop: function(){alert('dropped')},
+						filter: '.drop',
+					}} >
+						<div className="drop" style={{width:100,height:100,backgroundColor:'#660022', display: 'inline-block'}}>drop</div>
+						<hr />
+						<div className="drop" style={{width:100,height:100,backgroundColor:'#399962', display: 'inline-block'}}>drop</div>
+						<hr />
+						<div style={{width:100,height:100,backgroundColor:'#445500',  display: 'inline-block'}}>no drop here</div>
+					</KendoDropTargetArea>
+					<KendoDraggable  options={{
+						hint: function(element) {return element.clone()}
+					}}>
+						<div style={{width:50,height:50,backgroundColor:'#763836'}}>drag me</div>
+					</KendoDraggable>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDropTarget</h2>
+					<KendoDropTarget options={{
+						drop: function(){alert('dropped')}
+					}} >
+						<div style={{width:200,height:200,backgroundColor:'#919922'}}>drop</div>
+					</KendoDropTarget>
+					<KendoDraggable  options={{
+						hint: function(element) {return element.clone()}
+					}}>
+						<div style={{width:50,height:50,backgroundColor:'#569988'}}>drag me</div>
+					</KendoDraggable>
+				</div>
+				<div style={{ marginBottom: 150 }}>
+					<h2>KendoDraggable</h2>
+					<KendoDraggable  options={{
+						hint: function(element) {return element.clone()}
+					}}>
+						<div style={{width:50,height:50,backgroundColor:'#ff6600'}}>drag me</div>
+					</KendoDraggable>
+				</div>
 				<div style={{ marginBottom: 150 }}>
 					<h2>KendoSortable</h2>
 					<KendoSortable>

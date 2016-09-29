@@ -77,7 +77,9 @@ For example:
 | [ToolBar](http://demos.telerik.com/kendo-ui/toolbar/index)            | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-toolbar`](https://www.npmjs.com/package/kendo-ui-react-jquery-toolbar) | [source](packages/toolBar)
 | [TreeView](http://demos.telerik.com/kendo-ui/treeview/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treeview`](https://www.npmjs.com/package/kendo-ui-react-jquery-treeview) | [source](packages/treeView)
 | **Interactivity and UX**  |
-| [Drag-and-Drop](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | |
+| [Draggable](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-draggable`](https://www.npmjs.com/package/kendo-ui-react-jquery-draggable) | [source](packages/draggable)
+| [DropTarget](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-droptarget`](https://www.npmjs.com/package/kendo-ui-react-jquery-droptarget) | [source](packages/dropTarget)
+| [DropTargetArea](http://demos.telerik.com/kendo-ui/dragdrop/index)     | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-droptargetarea`](https://www.npmjs.com/package/kendo-ui-react-jquery-progressbararea) | [source](packages/dropTargetArea)
 | [Effects](http://demos.telerik.com/kendo-ui/fx/expand)                | :white_check_mark: | :white_check_mark: | |
 | [ProgressBar](http://demos.telerik.com/kendo-ui/progressbar/index)    | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-progressbar`](https://www.npmjs.com/package/kendo-ui-react-jquery-progressbar) | [source](packages/progressBar)
 | [Sortable](http://demos.telerik.com/kendo-ui/sortable/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-sortable`](https://www.npmjs.com/package/kendo-ui-react-jquery-sortable) | [source](packages/sortable)
