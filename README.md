@@ -23,7 +23,7 @@ For example:
 | ------- | :----: | :--------: | :------------------: | ------------------ |
 | **Data Management**       |
 | [Grid](http://demos.telerik.com/kendo-ui/grid/index)                  | :x:  | :white_check_mark: |  [`npm install kendo-ui-react-jquery-grid`](https://www.npmjs.com/package/kendo-ui-react-jquery-grid) | [source](packages/grid)
-| [Spreadsheet](http://demos.telerik.com/kendo-ui/spreadsheet/index)    | :x:  | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2162](https://github.com/telerik/kendo-ui-core/issues/2162) |
+| [Spreadsheet](http://demos.telerik.com/kendo-ui/spreadsheet/index)    | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-spreadsheet`](https://www.npmjs.com/package/kendo-ui-react-jquery-spreadsheet) | [source](packages/spreadsheet)
 | [ListView](http://demos.telerik.com/kendo-ui/listview/index)          | :white_check_mark: | :white_check_mark: |[`npm install kendo-ui-react-jquery-listview`](https://www.npmjs.com/package/kendo-ui-react-jquery-listview) | [source](packages/listView)
 | [PivotGrid](http://demos.telerik.com/kendo-ui/pivotgrid/index)        | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-pivotgrid`](https://www.npmjs.com/package/kendo-ui-react-jquery-pivotgrid) | [source](packages/pivotGrid)
 | [TreeList](http://demos.telerik.com/kendo-ui/treelist/index)          | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-treelist`](https://www.npmjs.com/package/kendo-ui-react-jquery-treelist) | [source](packages/treeList)
@@ -34,7 +34,7 @@ For example:
 | [DatePicker](http://demos.telerik.com/kendo-ui/datepicker/index)      | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datepicker) | [source](packages/datePicker)
 | [DateTimePicker](http://demos.telerik.com/kendo-ui/datetimepicker/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-datetimepicker`](https://www.npmjs.com/package/kendo-ui-react-jquery-datetimepicker) | [source](packages/dateTimePicker)
 | [DropDownList](http://demos.telerik.com/kendo-ui/dropdownlist/index)  | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-dropdownlist`](https://www.npmjs.com/package/kendo-ui-react-jquery-dropdownlist) | [source](packages/dropDownList)
-| [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2176](https://github.com/telerik/kendo-ui-core/issues/2176) |
+| [Editor](http://demos.telerik.com/kendo-ui/editor/index)              | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-editor`](https://www.npmjs.com/package/kendo-ui-react-jquery-editor) | [source](packages/editor)
 | [MaskedTextBox](http://demos.telerik.com/kendo-ui/maskedtextbox/index)| :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-maskedtextbox`](https://www.npmjs.com/package/kendo-ui-react-jquery-maskedtextbox) | [source](packages/maskedTextBox)
 | [MultiSelect](http://demos.telerik.com/kendo-ui/multiselect/index)    | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-multiselect`](https://www.npmjs.com/package/kendo-ui-react-jquery-multiselect) | [source](packages/multiSelect)
 | [NumericTextBox](http://demos.telerik.com/kendo-ui/numerictextbox/index) | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-numerictextbox`](https://www.npmjs.com/package/kendo-ui-react-jquery-numerictextbox) | [source](packages/numericTextbox)
@@ -54,8 +54,8 @@ For example:
 | [Barcode](http://demos.telerik.com/kendo-ui/barcode/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-barcode`](https://www.npmjs.com/package/kendo-ui-react-jquery-barcode) | [source](packages/barCode)
 | [QR Code](http://demos.telerik.com/kendo-ui/qrcode/index)             | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-qrcode`](https://www.npmjs.com/package/kendo-ui-react-jquery-qrcode) | [source](packages/qrCode)
 | **Diagram and Maps**      |
-| [Diagram](http://demos.telerik.com/kendo-ui/diagram/index)            | :x: | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2202](https://github.com/telerik/kendo-ui-core/issues/2202) | 
-| [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | BUG [https://github.com/telerik/kendo-ui-core/issues/2203](https://github.com/telerik/kendo-ui-core/issues/2203) | 
+| [Diagram](http://demos.telerik.com/kendo-ui/diagram/index)            | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-diagram`](https://www.npmjs.com/package/kendo-ui-react-jquery-diagram) | [source](packages/diagram)
+| [Map](http://demos.telerik.com/kendo-ui/map/index)                    | :x: | :white_check_mark: | [`npm install kendo-ui-react-jquery-map`](https://www.npmjs.com/package/kendo-ui-react-jquery-map) | [source](packages/map)
 | **Scheduling**            |
 | [Calendar](http://demos.telerik.com/kendo-ui/calendar/index)          | :white_check_mark: | :white_check_mark: | [`npm install kendo-ui-react-jquery-calendar`](https://www.npmjs.com/package/kendo-ui-react-jquery-calendar) | [source](packages/calendar)
 | [Gantt](http://demos.telerik.com/kendo-ui/gantt/index)                | :x:  | :white_check_mark: | [`npm install kendo-ui-react-jquery-gantt`](https://www.npmjs.com/package/kendo-ui-react-jquery-gantt) | [source](packages/gantt)
